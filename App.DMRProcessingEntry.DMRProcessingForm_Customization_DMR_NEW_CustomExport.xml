@@ -1,0 +1,5481 @@
+<?xml version="1.0" standalone="yes"?>
+<CustomizationDS xmlns="http://tempuri.org/XMLSchema.xsd">
+  <xs:schema id="CustomizationDS" targetNamespace="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="CustomizationDS" msdata:IsDataSet="true" msdata:Locale="" msprop:Key2="App.DMRProcessingEntry.DMRProcessingForm" msprop:CGCCode="" msprop:Description="New DMR Form" msprop:CommentText="DMRHEAD.Checkbox01 = Accounting&#xA;DMRHEAD.Checkbox02 = Contracts&#xA;DMRHEAD.Checkbox03 = MFG ENG&#xA;&#xA;&#xA;[spare: 8/28/2014 4:04:16 PM]&#xA;&#xA;&#xA;[spare: 8/28/2014 4:07:30 PM]&#xA;&#xA;  &#xA;[spare: 9/12/2014 1:14:12 PM]" msprop:Key3="" msprop:Key1="DMR_NEW" msprop:TypeCode="Customization" msprop:ProductID="EP" msprop:Company="CIC68322" msprop:BuildVersion="9.05.702A">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Controls">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormsID" type="xs:string" />
+                <xs:element name="ControlName" type="xs:string" />
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="ParentControlKey" type="xs:string" />
+                <xs:element name="ControlType" type="xs:string" />
+                <xs:element name="Company" type="xs:string" />
+                <xs:element name="Plant" type="xs:string" />
+                <xs:element name="DcdUserId" type="xs:string" />
+                <xs:element name="GroupID" type="xs:string" />
+                <xs:element name="ControlsID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Properties">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormsID" type="xs:string" />
+                <xs:element name="ControlName" type="xs:string" />
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="PropertyName" type="xs:string" />
+                <xs:element name="PropertyValue" type="xs:string" />
+                <xs:element name="Company" type="xs:string" />
+                <xs:element name="Plant" type="xs:string" />
+                <xs:element name="DcdUserID" type="xs:string" />
+                <xs:element name="GroupID" type="xs:string" />
+                <xs:element name="PropertiesID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC1</ControlName>
+    <Key>d45c7c47-f361-4c6f-abce-4eebd64f34e4</Key>
+    <ParentControlKey>a6ed0a92-581b-4d5c-af74-982228570447</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC2</ControlName>
+    <Key>209e9560-2a7b-4ad8-8d4f-481a30f9ceae</Key>
+    <ParentControlKey>a6ed0a92-581b-4d5c-af74-982228570447</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6528d005-ff6e-413f-a163-272627f320dd</Key>
+    <ParentControlKey>a6ed0a92-581b-4d5c-af74-982228570447</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC2</ControlName>
+    <Key>fe5595dd-0bef-4ae7-bcbe-e843ce603c26</Key>
+    <ParentControlKey>a6ed0a92-581b-4d5c-af74-982228570447</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC4</ControlName>
+    <Key>28a4efff-7327-4316-86cb-6b6e1096dd2b</Key>
+    <ParentControlKey>a6ed0a92-581b-4d5c-af74-982228570447</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC4</ControlName>
+    <Key>3c2a1c2e-a717-480e-ae77-d311e0469d8f</Key>
+    <ParentControlKey>a6ed0a92-581b-4d5c-af74-982228570447</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>SignOffs</ControlName>
+    <Key>339f6579-1243-424c-906d-cf82e4bc54ef</Key>
+    <ParentControlKey>mainPanel1.windowDockingArea1.</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiBasePanel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiGroupBox1</ControlName>
+    <Key>551c8cc6-fe1c-49d4-a15d-616ca170de4e</Key>
+    <ParentControlKey>339f6579-1243-424c-906d-cf82e4bc54ef</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiGroupBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC3</ControlName>
+    <Key>a991631a-0e24-4920-8c94-5e0a51608e7c</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>51e1315e-213b-480b-85e8-244642b21158</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC3</ControlName>
+    <Key>a3b597dd-aa70-4119-a891-fee2e1d6d7c3</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC2</ControlName>
+    <Key>891045e1-5fcf-4079-8893-865d9ed42244</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC5</ControlName>
+    <Key>c5572694-47d5-431c-ab57-5d8ccf5dd858</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC5</ControlName>
+    <Key>7fbc0bd0-5b34-4a9d-9fd0-0d9cba336b0b</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC3</ControlName>
+    <Key>3192a0fe-699a-4503-b5c4-7ab6dae37072</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC4</ControlName>
+    <Key>19c17172-34a9-46ea-884b-88f201b2fb99</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC5</ControlName>
+    <Key>73036612-f281-4d43-991b-3b8e6f1a43f8</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC6</ControlName>
+    <Key>88f10199-722b-47af-9fc6-6b4d63a884fd</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC7</ControlName>
+    <Key>323dd46d-951d-49d6-ae58-ffc000d8c58a</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>13ea08a4-4ee1-45b5-b8d9-b74c7374a4c6</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC6</ControlName>
+    <Key>a1a49df0-2ce1-475b-9eda-06da01fa9714</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC9</ControlName>
+    <Key>94802c06-db3f-4366-93cf-87e7ad2e47a4</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC6</ControlName>
+    <Key>ab5c3af2-07a1-4339-89ba-d1a4e7a161ea</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC7</ControlName>
+    <Key>3f0ec5ca-e49f-4fa5-a4ca-269cdd706166</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC8</ControlName>
+    <Key>17cb71ad-fc61-4ee1-bb8f-e3a63c7a2fb8</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC9</ControlName>
+    <Key>58523ba7-89ef-4058-8edc-4d93c6ae3035</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC10</ControlName>
+    <Key>6253b485-27f7-4ad7-80ac-40047d1b40ed</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC11</ControlName>
+    <Key>3d78f1e3-b541-46a3-bd14-674644d5dffe</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC12</ControlName>
+    <Key>7c378e88-0061-48e2-bd9e-2755dc7bdbc5</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC7</ControlName>
+    <Key>e9b77c0e-d14f-4869-844b-02c15215ebff</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC8</ControlName>
+    <Key>1b5e416e-ed6e-40bc-b270-53cd22123cdf</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC9</ControlName>
+    <Key>fc82ce0d-85ef-4612-852d-a61837d2dac4</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC10</ControlName>
+    <Key>14e93d08-26f4-4681-968a-c5d89d763086</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC11</ControlName>
+    <Key>294de680-4009-4cbb-9020-91629ab44948</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC12</ControlName>
+    <Key>15fd5aa4-9036-4119-b071-1733961a44c9</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC10</ControlName>
+    <Key>5d92a97c-baff-4e0d-bfa1-48008b9f58be</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC11</ControlName>
+    <Key>4f7fd589-2e04-4d72-8f0c-074e19eade04</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC12</ControlName>
+    <Key>b14f07ae-62a7-4bdb-9334-b488141bf5a7</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC13</ControlName>
+    <Key>e5ad2576-34ab-415c-a16f-5518569f94b4</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC14</ControlName>
+    <Key>b02eaf99-1018-4d80-8e56-db6ace844902</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC15</ControlName>
+    <Key>b11ef1fb-38e6-4125-a068-429100f35f1b</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC16</ControlName>
+    <Key>948a3e3b-4371-4857-aac2-907b2d6c12a7</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC17</ControlName>
+    <Key>a0d6d039-0e75-40a0-9489-1817cbb38264</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC18</ControlName>
+    <Key>be2030b7-b0a3-4b89-93ce-7bb4f47fc559</Key>
+    <ParentControlKey>551c8cc6-fe1c-49d4-a15d-616ca170de4e</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC13</ControlName>
+    <Key>902702e2-87d1-42a6-80cc-de138dee114c</Key>
+    <ParentControlKey>a6ed0a92-581b-4d5c-af74-982228570447</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiCheckBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC13</ControlName>
+    <Key>ab2eaa32-97b0-4697-a727-906da68d3ffa</Key>
+    <ParentControlKey>a6ed0a92-581b-4d5c-af74-982228570447</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>materialDetailPanel1</ControlName>
+    <Key>3a0fd80c-9bf0-4f58-87bf-830b8cc350af</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>388</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>materialDetailPanel1</ControlName>
+    <Key>3a0fd80c-9bf0-4f58-87bf-830b8cc350af</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>730</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>rejectDetailPanel1</ControlName>
+    <Key>7fc92e9d-fee1-4cbe-af8d-eb780e4fb153</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>414</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>rejectDetailPanel1</ControlName>
+    <Key>7fc92e9d-fee1-4cbe-af8d-eb780e4fb153</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>730</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblTranDocType</ControlName>
+    <Key>fe679cae-4ac4-4484-80fd-5568e1925c4a</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblTranDocType</ControlName>
+    <Key>fe679cae-4ac4-4484-80fd-5568e1925c4a</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblTranDocType</ControlName>
+    <Key>fe679cae-4ac4-4484-80fd-5568e1925c4a</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>166</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblTranDocType</ControlName>
+    <Key>fe679cae-4ac4-4484-80fd-5568e1925c4a</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>cmbTranDocType</ControlName>
+    <Key>7e3b8089-3d8a-4e2e-bfb0-97bd2f7787aa</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>359</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>cmbTranDocType</ControlName>
+    <Key>7e3b8089-3d8a-4e2e-bfb0-97bd2f7787aa</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>22</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>cmbTranDocType</ControlName>
+    <Key>7e3b8089-3d8a-4e2e-bfb0-97bd2f7787aa</Key>
+    <PropertyName>Anchor</PropertyName>
+    <PropertyValue>Top, Left, Right</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>cmbTranDocType</ControlName>
+    <Key>7e3b8089-3d8a-4e2e-bfb0-97bd2f7787aa</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>180</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>cmbTranDocType</ControlName>
+    <Key>7e3b8089-3d8a-4e2e-bfb0-97bd2f7787aa</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>grpTranDocType</ControlName>
+    <Key>fa219573-327a-4a27-b8a2-5daea37b6b86</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>556</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>grpTranDocType</ControlName>
+    <Key>fa219573-327a-4a27-b8a2-5daea37b6b86</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>49</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>gbCheckOffs</ControlName>
+    <Key>a6ed0a92-581b-4d5c-af74-982228570447</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>156</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>gbCheckOffs</ControlName>
+    <Key>a6ed0a92-581b-4d5c-af74-982228570447</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>274</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC1</ControlName>
+    <Key>d45c7c47-f361-4c6f-abce-4eebd64f34e4</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC1</ControlName>
+    <Key>d45c7c47-f361-4c6f-abce-4eebd64f34e4</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>a6ed0a92-581b-4d5c-af74-982228570447</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC1</ControlName>
+    <Key>d45c7c47-f361-4c6f-abce-4eebd64f34e4</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>17</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC1</ControlName>
+    <Key>d45c7c47-f361-4c6f-abce-4eebd64f34e4</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC1</ControlName>
+    <Key>d45c7c47-f361-4c6f-abce-4eebd64f34e4</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>128</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC1</ControlName>
+    <Key>d45c7c47-f361-4c6f-abce-4eebd64f34e4</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>116</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC2</ControlName>
+    <Key>209e9560-2a7b-4ad8-8d4f-481a30f9ceae</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC2</ControlName>
+    <Key>209e9560-2a7b-4ad8-8d4f-481a30f9ceae</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>a6ed0a92-581b-4d5c-af74-982228570447</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC2</ControlName>
+    <Key>209e9560-2a7b-4ad8-8d4f-481a30f9ceae</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>17</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC2</ControlName>
+    <Key>209e9560-2a7b-4ad8-8d4f-481a30f9ceae</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC2</ControlName>
+    <Key>209e9560-2a7b-4ad8-8d4f-481a30f9ceae</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>128</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC2</ControlName>
+    <Key>209e9560-2a7b-4ad8-8d4f-481a30f9ceae</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>140</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblPur</ControlName>
+    <Key>41fbaf81-4650-4f4b-bbb6-7d5ade280ce6</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>92</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblPur</ControlName>
+    <Key>41fbaf81-4650-4f4b-bbb6-7d5ade280ce6</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>14</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblPur</ControlName>
+    <Key>41fbaf81-4650-4f4b-bbb6-7d5ade280ce6</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblPur</ControlName>
+    <Key>41fbaf81-4650-4f4b-bbb6-7d5ade280ce6</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblProd</ControlName>
+    <Key>9ef1d297-8817-4eda-8e71-25b3567bf753</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>68</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblProd</ControlName>
+    <Key>9ef1d297-8817-4eda-8e71-25b3567bf753</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>14</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblProd</ControlName>
+    <Key>9ef1d297-8817-4eda-8e71-25b3567bf753</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblProd</ControlName>
+    <Key>9ef1d297-8817-4eda-8e71-25b3567bf753</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblEng</ControlName>
+    <Key>0127b03d-b448-4825-bc9d-3a759c4f9e08</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>44</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblEng</ControlName>
+    <Key>0127b03d-b448-4825-bc9d-3a759c4f9e08</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>14</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblEng</ControlName>
+    <Key>0127b03d-b448-4825-bc9d-3a759c4f9e08</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblEng</ControlName>
+    <Key>0127b03d-b448-4825-bc9d-3a759c4f9e08</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblQA</ControlName>
+    <Key>29863a4e-5df9-45b3-804e-3e2229986c14</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblQA</ControlName>
+    <Key>29863a4e-5df9-45b3-804e-3e2229986c14</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>14</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblQA</ControlName>
+    <Key>29863a4e-5df9-45b3-804e-3e2229986c14</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblQA</ControlName>
+    <Key>29863a4e-5df9-45b3-804e-3e2229986c14</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6528d005-ff6e-413f-a163-272627f320dd</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6528d005-ff6e-413f-a163-272627f320dd</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>a6ed0a92-581b-4d5c-af74-982228570447</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6528d005-ff6e-413f-a163-272627f320dd</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6528d005-ff6e-413f-a163-272627f320dd</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6528d005-ff6e-413f-a163-272627f320dd</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>14</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6528d005-ff6e-413f-a163-272627f320dd</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>116</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC2</ControlName>
+    <Key>fe5595dd-0bef-4ae7-bcbe-e843ce603c26</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC2</ControlName>
+    <Key>fe5595dd-0bef-4ae7-bcbe-e843ce603c26</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>a6ed0a92-581b-4d5c-af74-982228570447</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC2</ControlName>
+    <Key>fe5595dd-0bef-4ae7-bcbe-e843ce603c26</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC2</ControlName>
+    <Key>fe5595dd-0bef-4ae7-bcbe-e843ce603c26</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC2</ControlName>
+    <Key>fe5595dd-0bef-4ae7-bcbe-e843ce603c26</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>14</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC2</ControlName>
+    <Key>fe5595dd-0bef-4ae7-bcbe-e843ce603c26</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>140</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6528d005-ff6e-413f-a163-272627f320dd</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Accounting:</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC1</ControlName>
+    <Key>d45c7c47-f361-4c6f-abce-4eebd64f34e4</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblQAFinal</ControlName>
+    <Key>f6fc3334-2695-470d-acbc-e3caa8e846f1</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>212</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblQAFinal</ControlName>
+    <Key>f6fc3334-2695-470d-acbc-e3caa8e846f1</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>14</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblQAFinal</ControlName>
+    <Key>f6fc3334-2695-470d-acbc-e3caa8e846f1</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>lblQAFinal</ControlName>
+    <Key>f6fc3334-2695-470d-acbc-e3caa8e846f1</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC2</ControlName>
+    <Key>209e9560-2a7b-4ad8-8d4f-481a30f9ceae</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC2</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC2</ControlName>
+    <Key>fe5595dd-0bef-4ae7-bcbe-e843ce603c26</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Contracts</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>chkPur</ControlName>
+    <Key>76010db2-fcef-4c16-8700-304f4f074893</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>128</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>chkPur</ControlName>
+    <Key>76010db2-fcef-4c16-8700-304f4f074893</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>92</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>chkQAFinal</ControlName>
+    <Key>de908c59-0a45-4a7f-a679-fd656e7bc756</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>128</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>chkQAFinal</ControlName>
+    <Key>de908c59-0a45-4a7f-a679-fd656e7bc756</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>212</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC4</ControlName>
+    <Key>28a4efff-7327-4316-86cb-6b6e1096dd2b</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC4</ControlName>
+    <Key>28a4efff-7327-4316-86cb-6b6e1096dd2b</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>a6ed0a92-581b-4d5c-af74-982228570447</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC4</ControlName>
+    <Key>28a4efff-7327-4316-86cb-6b6e1096dd2b</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC4</ControlName>
+    <Key>28a4efff-7327-4316-86cb-6b6e1096dd2b</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC4</ControlName>
+    <Key>28a4efff-7327-4316-86cb-6b6e1096dd2b</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>14</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC4</ControlName>
+    <Key>28a4efff-7327-4316-86cb-6b6e1096dd2b</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>164</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC4</ControlName>
+    <Key>3c2a1c2e-a717-480e-ae77-d311e0469d8f</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC4</ControlName>
+    <Key>3c2a1c2e-a717-480e-ae77-d311e0469d8f</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>a6ed0a92-581b-4d5c-af74-982228570447</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC4</ControlName>
+    <Key>3c2a1c2e-a717-480e-ae77-d311e0469d8f</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>17</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC4</ControlName>
+    <Key>3c2a1c2e-a717-480e-ae77-d311e0469d8f</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC4</ControlName>
+    <Key>3c2a1c2e-a717-480e-ae77-d311e0469d8f</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>128</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC4</ControlName>
+    <Key>3c2a1c2e-a717-480e-ae77-d311e0469d8f</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>164</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC4</ControlName>
+    <Key>3c2a1c2e-a717-480e-ae77-d311e0469d8f</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC4</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC4</ControlName>
+    <Key>28a4efff-7327-4316-86cb-6b6e1096dd2b</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>MFG ENG:</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC1</ControlName>
+    <Key>d45c7c47-f361-4c6f-abce-4eebd64f34e4</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckBox01</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC2</ControlName>
+    <Key>209e9560-2a7b-4ad8-8d4f-481a30f9ceae</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckBox02</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC4</ControlName>
+    <Key>3c2a1c2e-a717-480e-ae77-d311e0469d8f</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckBox03</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>chkQA</ControlName>
+    <Key>ea8efcbd-5436-42be-948a-4dd483688a74</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>128</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>chkQA</ControlName>
+    <Key>ea8efcbd-5436-42be-948a-4dd483688a74</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>Customization</ControlName>
+    <Key>2dcd1674-5e34-4d98-b493-c75747027376</Key>
+    <PropertyName>Script</PropertyName>
+    <PropertyValue>// **************************************************
+// Custom code for DMRProcessingForm
+// Created: 8/28/2014 3:50:33 PM
+// **************************************************
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics;
+using System.Windows.Forms;
+using Epicor.Mfg.BO;
+using Epicor.Mfg.Core;
+using Epicor.Mfg.Lib;
+using Epicor.Mfg.UI;
+using Epicor.Mfg.UI.Adapters;
+using Epicor.Mfg.UI.Customization;
+using Epicor.Mfg.UI.ExtendedProps;
+using Epicor.Mfg.UI.FormFunctions;
+using Epicor.Mfg.UI.FrameWork;
+using Epicor.Mfg.UI.Searches;
+using Infragistics.Win.UltraWinToolbars;
+using Infragistics.Win.UltraWinGrid;
+using System.Net.Mail;
+using System.Reflection;
+
+public class Script
+{
+	// ** Wizard Insert Location - Do Not Remove 'Begin/End Wizard Added Module Level Variables' Comments! **
+	// Begin Wizard Added Module Level Variables **
+	 
+	    private EpiDataView edvDMRHead;
+	// End Wizard Added Module Level Variables **
+
+	// Add Custom Module Level Variables Here **
+
+	public void InitializeCustomCode()
+	{
+		// ** Wizard Insert Location - Do not delete 'Begin/End Wizard Added Variable Initialization' lines **
+		// Begin Wizard Added Variable Initialization
+
+		// End Wizard Added Variable Initialization
+
+        edvDMRHead = ((EpiDataView)(oTrans.EpiDataViews["DMRHead"]));
+    
+	    DMRHead_Column.ColumnChanged += DMRHead_AfterFieldChange;
+	    DMRHead_Column.ColumnChanging += DMRHead_BeforeFieldChange;
+
+		// Begin Wizard Added Custom Method Calls
+
+		// End Wizard Added Custom Method Calls
+	}
+
+	public void DestroyCustomCode()
+	{
+		// ** Wizard Insert Location - Do not delete 'Begin/End Wizard Added Object Disposal' lines **
+		// Begin Wizard Added Object Disposal
+
+		// End Wizard Added Object Disposal
+
+		// Begin Custom Code Disposal
+
+		// End Custom Code Disposal
+	}
+
+private void DMRHead_BeforeFieldChange(object sender, DataColumnChangeEventArgs args) 
+	{
+        // ** Argument Properties and Uses **
+        // args.Row["FieldName"]
+        // args.Column, args.ProposedValue, args.Row
+        // Add Event Handler Code
+        switch (args.Column.ColumnName) 
+		{
+            case "CheckOff1":
+            case "CheckOff2":
+            case "CheckOff3":
+            case "CheckOff4":
+            case "CheckOff5":
+            case "CheckBox01":
+            case "CheckBox02":
+            case "CheckBox03":
+            case "CheckBox04":
+
+                if (Convert.ToBoolean(args.ProposedValue) == false)
+                    args.ProposedValue = true;
+                break;
+        }
+    }
+
+private void DMRHead_AfterFieldChange(object sender, DataColumnChangeEventArgs args) 
+{
+        // ** Argument Properties and Uses **
+        // args.Row["FieldName"]
+        // args.Column, args.ProposedValue, args.Row
+        // Add Event Handler Code
+        switch (args.Column.ColumnName)
+		{
+            case "CheckOff1":
+            case "CheckOff2":
+            case "CheckOff3":
+            case "CheckOff4":
+            case "CheckOff5":
+            case "CheckBox01":
+            case "CheckBox02":
+            case "CheckBox03":
+            case "CheckBox04":
+
+                SetCheckBoxNotes(args);
+            break;
+        }
+    }
+
+	 private void SetCheckBoxNotes(DataColumnChangeEventArgs args)
+	 {
+        //  Store relationship between check boxes and note fields
+        Dictionary&lt;string, string&gt; FieldRef = new Dictionary&lt;string, string&gt;();
+     	   FieldRef.Add("CheckOff1", "ShortChar01");
+     	   FieldRef.Add("CheckOff2", "ShortChar02");
+     	   FieldRef.Add("CheckOff3", "ShortChar03");
+     	   FieldRef.Add("CheckOff4", "ShortChar04");
+     	   FieldRef.Add("CheckOff5", "ShortChar05");
+     	   FieldRef.Add("CheckBox01", "ShortChar06");
+     	   FieldRef.Add("CheckBox02", "ShortChar07");
+        	FieldRef.Add("CheckBox03", "ShortChar08");
+        	FieldRef.Add("CheckBox04", "ShortChar09");
+
+        string ColumnName = args.Column.ColumnName;
+        bool ProposedValue = Convert.ToBoolean(args.ProposedValue);
+        if (ProposedValue &amp;&amp; edvDMRHead.dataView[edvDMRHead.Row][FieldRef[ColumnName]].ToString() == "")
+            edvDMRHead.dataView[edvDMRHead.Row][FieldRef[ColumnName]] = string.Format("{0}-{1}-{2} ", ((Session)oTrans.Session).UserID, DateTime.Now.ToShortTimeString(), DateTime.Today.ToString("dd-MMM-yy"));
+        else if (!ProposedValue)
+            edvDMRHead.dataView[edvDMRHead.Row][FieldRef[ColumnName]] = "";
+    }
+
+}
+</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>Customization</ControlName>
+    <Key>2dcd1674-5e34-4d98-b493-c75747027376</Key>
+    <PropertyName>Language</PropertyName>
+    <PropertyValue>CSharp</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>chkProd</ControlName>
+    <Key>abfe4275-fc90-4d61-9b41-596c95ed494e</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>128</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>chkProd</ControlName>
+    <Key>abfe4275-fc90-4d61-9b41-596c95ed494e</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>68</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>SignOffs</ControlName>
+    <Key>339f6579-1243-424c-906d-cf82e4bc54ef</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Sign Offs</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>SignOffs</ControlName>
+    <Key>339f6579-1243-424c-906d-cf82e4bc54ef</Key>
+    <PropertyName>TextTab</PropertyName>
+    <PropertyValue>Sign Offs</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>SignOffs</ControlName>
+    <Key>339f6579-1243-424c-906d-cf82e4bc54ef</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>baseDockManager65ad0f2d-e5e4-4f95-b7cf-52342f6058f6</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiGroupBox1</ControlName>
+    <Key>551c8cc6-fe1c-49d4-a15d-616ca170de4e</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiGroupBox1</ControlName>
+    <Key>551c8cc6-fe1c-49d4-a15d-616ca170de4e</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>339f6579-1243-424c-906d-cf82e4bc54ef</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiGroupBox1</ControlName>
+    <Key>551c8cc6-fe1c-49d4-a15d-616ca170de4e</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>436</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiGroupBox1</ControlName>
+    <Key>551c8cc6-fe1c-49d4-a15d-616ca170de4e</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>712</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiGroupBox1</ControlName>
+    <Key>551c8cc6-fe1c-49d4-a15d-616ca170de4e</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiGroupBox1</ControlName>
+    <Key>551c8cc6-fe1c-49d4-a15d-616ca170de4e</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>4</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiGroupBox1</ControlName>
+    <Key>551c8cc6-fe1c-49d4-a15d-616ca170de4e</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>QC Approval</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC3</ControlName>
+    <Key>a991631a-0e24-4920-8c94-5e0a51608e7c</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC3</ControlName>
+    <Key>a991631a-0e24-4920-8c94-5e0a51608e7c</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC3</ControlName>
+    <Key>a991631a-0e24-4920-8c94-5e0a51608e7c</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC3</ControlName>
+    <Key>a991631a-0e24-4920-8c94-5e0a51608e7c</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>13</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC3</ControlName>
+    <Key>a991631a-0e24-4920-8c94-5e0a51608e7c</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>132</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC3</ControlName>
+    <Key>a991631a-0e24-4920-8c94-5e0a51608e7c</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>28</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC3</ControlName>
+    <Key>a991631a-0e24-4920-8c94-5e0a51608e7c</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckOff1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC3</ControlName>
+    <Key>a991631a-0e24-4920-8c94-5e0a51608e7c</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC3</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>51e1315e-213b-480b-85e8-244642b21158</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>51e1315e-213b-480b-85e8-244642b21158</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>51e1315e-213b-480b-85e8-244642b21158</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>51e1315e-213b-480b-85e8-244642b21158</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>153</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>51e1315e-213b-480b-85e8-244642b21158</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>148</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>51e1315e-213b-480b-85e8-244642b21158</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>24</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>51e1315e-213b-480b-85e8-244642b21158</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.ShortChar01</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC3</ControlName>
+    <Key>a3b597dd-aa70-4119-a891-fee2e1d6d7c3</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC3</ControlName>
+    <Key>a3b597dd-aa70-4119-a891-fee2e1d6d7c3</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC3</ControlName>
+    <Key>a3b597dd-aa70-4119-a891-fee2e1d6d7c3</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC3</ControlName>
+    <Key>a3b597dd-aa70-4119-a891-fee2e1d6d7c3</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC3</ControlName>
+    <Key>a3b597dd-aa70-4119-a891-fee2e1d6d7c3</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC3</ControlName>
+    <Key>a3b597dd-aa70-4119-a891-fee2e1d6d7c3</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>28</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC3</ControlName>
+    <Key>a3b597dd-aa70-4119-a891-fee2e1d6d7c3</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>QA Approval</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC2</ControlName>
+    <Key>891045e1-5fcf-4079-8893-865d9ed42244</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC2</ControlName>
+    <Key>891045e1-5fcf-4079-8893-865d9ed42244</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC2</ControlName>
+    <Key>891045e1-5fcf-4079-8893-865d9ed42244</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC2</ControlName>
+    <Key>891045e1-5fcf-4079-8893-865d9ed42244</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>153</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC2</ControlName>
+    <Key>891045e1-5fcf-4079-8893-865d9ed42244</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>148</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC2</ControlName>
+    <Key>891045e1-5fcf-4079-8893-865d9ed42244</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>68</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC2</ControlName>
+    <Key>891045e1-5fcf-4079-8893-865d9ed42244</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.ShortChar02</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC5</ControlName>
+    <Key>c5572694-47d5-431c-ab57-5d8ccf5dd858</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC5</ControlName>
+    <Key>c5572694-47d5-431c-ab57-5d8ccf5dd858</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC5</ControlName>
+    <Key>c5572694-47d5-431c-ab57-5d8ccf5dd858</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>21</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC5</ControlName>
+    <Key>c5572694-47d5-431c-ab57-5d8ccf5dd858</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>15</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC5</ControlName>
+    <Key>c5572694-47d5-431c-ab57-5d8ccf5dd858</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>132</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC5</ControlName>
+    <Key>c5572694-47d5-431c-ab57-5d8ccf5dd858</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>68</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC5</ControlName>
+    <Key>c5572694-47d5-431c-ab57-5d8ccf5dd858</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckOff2</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC5</ControlName>
+    <Key>7fbc0bd0-5b34-4a9d-9fd0-0d9cba336b0b</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC5</ControlName>
+    <Key>7fbc0bd0-5b34-4a9d-9fd0-0d9cba336b0b</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC5</ControlName>
+    <Key>7fbc0bd0-5b34-4a9d-9fd0-0d9cba336b0b</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC5</ControlName>
+    <Key>7fbc0bd0-5b34-4a9d-9fd0-0d9cba336b0b</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC5</ControlName>
+    <Key>7fbc0bd0-5b34-4a9d-9fd0-0d9cba336b0b</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC5</ControlName>
+    <Key>7fbc0bd0-5b34-4a9d-9fd0-0d9cba336b0b</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>68</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC5</ControlName>
+    <Key>c5572694-47d5-431c-ab57-5d8ccf5dd858</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC5</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC5</ControlName>
+    <Key>7fbc0bd0-5b34-4a9d-9fd0-0d9cba336b0b</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Engineering</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC3</ControlName>
+    <Key>3192a0fe-699a-4503-b5c4-7ab6dae37072</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC3</ControlName>
+    <Key>3192a0fe-699a-4503-b5c4-7ab6dae37072</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC3</ControlName>
+    <Key>3192a0fe-699a-4503-b5c4-7ab6dae37072</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC3</ControlName>
+    <Key>3192a0fe-699a-4503-b5c4-7ab6dae37072</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>153</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC3</ControlName>
+    <Key>3192a0fe-699a-4503-b5c4-7ab6dae37072</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>148</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC3</ControlName>
+    <Key>3192a0fe-699a-4503-b5c4-7ab6dae37072</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>112</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC4</ControlName>
+    <Key>19c17172-34a9-46ea-884b-88f201b2fb99</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC4</ControlName>
+    <Key>19c17172-34a9-46ea-884b-88f201b2fb99</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC4</ControlName>
+    <Key>19c17172-34a9-46ea-884b-88f201b2fb99</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC4</ControlName>
+    <Key>19c17172-34a9-46ea-884b-88f201b2fb99</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>153</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC4</ControlName>
+    <Key>19c17172-34a9-46ea-884b-88f201b2fb99</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>148</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC4</ControlName>
+    <Key>19c17172-34a9-46ea-884b-88f201b2fb99</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>156</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC5</ControlName>
+    <Key>73036612-f281-4d43-991b-3b8e6f1a43f8</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC5</ControlName>
+    <Key>73036612-f281-4d43-991b-3b8e6f1a43f8</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC5</ControlName>
+    <Key>73036612-f281-4d43-991b-3b8e6f1a43f8</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC5</ControlName>
+    <Key>73036612-f281-4d43-991b-3b8e6f1a43f8</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>153</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC5</ControlName>
+    <Key>73036612-f281-4d43-991b-3b8e6f1a43f8</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>148</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC5</ControlName>
+    <Key>73036612-f281-4d43-991b-3b8e6f1a43f8</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>200</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC6</ControlName>
+    <Key>88f10199-722b-47af-9fc6-6b4d63a884fd</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC6</ControlName>
+    <Key>88f10199-722b-47af-9fc6-6b4d63a884fd</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC6</ControlName>
+    <Key>88f10199-722b-47af-9fc6-6b4d63a884fd</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC6</ControlName>
+    <Key>88f10199-722b-47af-9fc6-6b4d63a884fd</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>153</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC6</ControlName>
+    <Key>88f10199-722b-47af-9fc6-6b4d63a884fd</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>148</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC6</ControlName>
+    <Key>88f10199-722b-47af-9fc6-6b4d63a884fd</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>244</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC7</ControlName>
+    <Key>323dd46d-951d-49d6-ae58-ffc000d8c58a</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC7</ControlName>
+    <Key>323dd46d-951d-49d6-ae58-ffc000d8c58a</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC7</ControlName>
+    <Key>323dd46d-951d-49d6-ae58-ffc000d8c58a</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC7</ControlName>
+    <Key>323dd46d-951d-49d6-ae58-ffc000d8c58a</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>153</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC7</ControlName>
+    <Key>323dd46d-951d-49d6-ae58-ffc000d8c58a</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>148</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC7</ControlName>
+    <Key>323dd46d-951d-49d6-ae58-ffc000d8c58a</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>288</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>13ea08a4-4ee1-45b5-b8d9-b74c7374a4c6</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>13ea08a4-4ee1-45b5-b8d9-b74c7374a4c6</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>13ea08a4-4ee1-45b5-b8d9-b74c7374a4c6</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>13ea08a4-4ee1-45b5-b8d9-b74c7374a4c6</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>153</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>13ea08a4-4ee1-45b5-b8d9-b74c7374a4c6</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>148</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>13ea08a4-4ee1-45b5-b8d9-b74c7374a4c6</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>332</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC3</ControlName>
+    <Key>3192a0fe-699a-4503-b5c4-7ab6dae37072</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.ShortChar03</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC4</ControlName>
+    <Key>19c17172-34a9-46ea-884b-88f201b2fb99</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.ShortChar04</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC5</ControlName>
+    <Key>73036612-f281-4d43-991b-3b8e6f1a43f8</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.ShortChar05</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC6</ControlName>
+    <Key>88f10199-722b-47af-9fc6-6b4d63a884fd</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.ShortChar06</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC7</ControlName>
+    <Key>323dd46d-951d-49d6-ae58-ffc000d8c58a</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.ShortChar07</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC6</ControlName>
+    <Key>a1a49df0-2ce1-475b-9eda-06da01fa9714</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC6</ControlName>
+    <Key>a1a49df0-2ce1-475b-9eda-06da01fa9714</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC6</ControlName>
+    <Key>a1a49df0-2ce1-475b-9eda-06da01fa9714</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC6</ControlName>
+    <Key>a1a49df0-2ce1-475b-9eda-06da01fa9714</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC6</ControlName>
+    <Key>a1a49df0-2ce1-475b-9eda-06da01fa9714</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC6</ControlName>
+    <Key>a1a49df0-2ce1-475b-9eda-06da01fa9714</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>112</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC9</ControlName>
+    <Key>94802c06-db3f-4366-93cf-87e7ad2e47a4</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC9</ControlName>
+    <Key>94802c06-db3f-4366-93cf-87e7ad2e47a4</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC9</ControlName>
+    <Key>94802c06-db3f-4366-93cf-87e7ad2e47a4</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC9</ControlName>
+    <Key>94802c06-db3f-4366-93cf-87e7ad2e47a4</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>153</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC9</ControlName>
+    <Key>94802c06-db3f-4366-93cf-87e7ad2e47a4</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>148</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC9</ControlName>
+    <Key>94802c06-db3f-4366-93cf-87e7ad2e47a4</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>376</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC6</ControlName>
+    <Key>ab5c3af2-07a1-4339-89ba-d1a4e7a161ea</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC6</ControlName>
+    <Key>ab5c3af2-07a1-4339-89ba-d1a4e7a161ea</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC6</ControlName>
+    <Key>ab5c3af2-07a1-4339-89ba-d1a4e7a161ea</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>17</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC6</ControlName>
+    <Key>ab5c3af2-07a1-4339-89ba-d1a4e7a161ea</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC6</ControlName>
+    <Key>ab5c3af2-07a1-4339-89ba-d1a4e7a161ea</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>132</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC6</ControlName>
+    <Key>ab5c3af2-07a1-4339-89ba-d1a4e7a161ea</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>112</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC7</ControlName>
+    <Key>3f0ec5ca-e49f-4fa5-a4ca-269cdd706166</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC7</ControlName>
+    <Key>3f0ec5ca-e49f-4fa5-a4ca-269cdd706166</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC7</ControlName>
+    <Key>3f0ec5ca-e49f-4fa5-a4ca-269cdd706166</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>17</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC7</ControlName>
+    <Key>3f0ec5ca-e49f-4fa5-a4ca-269cdd706166</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC7</ControlName>
+    <Key>3f0ec5ca-e49f-4fa5-a4ca-269cdd706166</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>132</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC7</ControlName>
+    <Key>3f0ec5ca-e49f-4fa5-a4ca-269cdd706166</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>160</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC8</ControlName>
+    <Key>17cb71ad-fc61-4ee1-bb8f-e3a63c7a2fb8</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC8</ControlName>
+    <Key>17cb71ad-fc61-4ee1-bb8f-e3a63c7a2fb8</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC8</ControlName>
+    <Key>17cb71ad-fc61-4ee1-bb8f-e3a63c7a2fb8</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>17</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC8</ControlName>
+    <Key>17cb71ad-fc61-4ee1-bb8f-e3a63c7a2fb8</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC8</ControlName>
+    <Key>17cb71ad-fc61-4ee1-bb8f-e3a63c7a2fb8</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>134</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC8</ControlName>
+    <Key>17cb71ad-fc61-4ee1-bb8f-e3a63c7a2fb8</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>207</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC9</ControlName>
+    <Key>58523ba7-89ef-4058-8edc-4d93c6ae3035</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC9</ControlName>
+    <Key>58523ba7-89ef-4058-8edc-4d93c6ae3035</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC9</ControlName>
+    <Key>58523ba7-89ef-4058-8edc-4d93c6ae3035</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>17</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC9</ControlName>
+    <Key>58523ba7-89ef-4058-8edc-4d93c6ae3035</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC9</ControlName>
+    <Key>58523ba7-89ef-4058-8edc-4d93c6ae3035</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>132</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC9</ControlName>
+    <Key>58523ba7-89ef-4058-8edc-4d93c6ae3035</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>244</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC10</ControlName>
+    <Key>6253b485-27f7-4ad7-80ac-40047d1b40ed</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC10</ControlName>
+    <Key>6253b485-27f7-4ad7-80ac-40047d1b40ed</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC10</ControlName>
+    <Key>6253b485-27f7-4ad7-80ac-40047d1b40ed</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>17</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC10</ControlName>
+    <Key>6253b485-27f7-4ad7-80ac-40047d1b40ed</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC10</ControlName>
+    <Key>6253b485-27f7-4ad7-80ac-40047d1b40ed</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>132</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC10</ControlName>
+    <Key>6253b485-27f7-4ad7-80ac-40047d1b40ed</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>288</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC11</ControlName>
+    <Key>3d78f1e3-b541-46a3-bd14-674644d5dffe</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC11</ControlName>
+    <Key>3d78f1e3-b541-46a3-bd14-674644d5dffe</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC11</ControlName>
+    <Key>3d78f1e3-b541-46a3-bd14-674644d5dffe</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>17</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC11</ControlName>
+    <Key>3d78f1e3-b541-46a3-bd14-674644d5dffe</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC11</ControlName>
+    <Key>3d78f1e3-b541-46a3-bd14-674644d5dffe</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>132</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC11</ControlName>
+    <Key>3d78f1e3-b541-46a3-bd14-674644d5dffe</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>332</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC12</ControlName>
+    <Key>7c378e88-0061-48e2-bd9e-2755dc7bdbc5</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC12</ControlName>
+    <Key>7c378e88-0061-48e2-bd9e-2755dc7bdbc5</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC12</ControlName>
+    <Key>7c378e88-0061-48e2-bd9e-2755dc7bdbc5</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>17</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC12</ControlName>
+    <Key>7c378e88-0061-48e2-bd9e-2755dc7bdbc5</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC12</ControlName>
+    <Key>7c378e88-0061-48e2-bd9e-2755dc7bdbc5</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>134</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC12</ControlName>
+    <Key>7c378e88-0061-48e2-bd9e-2755dc7bdbc5</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>383</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>13ea08a4-4ee1-45b5-b8d9-b74c7374a4c6</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.ShortChar08</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC9</ControlName>
+    <Key>94802c06-db3f-4366-93cf-87e7ad2e47a4</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.ShortChar09</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC6</ControlName>
+    <Key>ab5c3af2-07a1-4339-89ba-d1a4e7a161ea</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC6</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC6</ControlName>
+    <Key>a1a49df0-2ce1-475b-9eda-06da01fa9714</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Production</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC7</ControlName>
+    <Key>e9b77c0e-d14f-4869-844b-02c15215ebff</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC7</ControlName>
+    <Key>e9b77c0e-d14f-4869-844b-02c15215ebff</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC7</ControlName>
+    <Key>e9b77c0e-d14f-4869-844b-02c15215ebff</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC7</ControlName>
+    <Key>e9b77c0e-d14f-4869-844b-02c15215ebff</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC7</ControlName>
+    <Key>e9b77c0e-d14f-4869-844b-02c15215ebff</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC7</ControlName>
+    <Key>e9b77c0e-d14f-4869-844b-02c15215ebff</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>160</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC7</ControlName>
+    <Key>3f0ec5ca-e49f-4fa5-a4ca-269cdd706166</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC7</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC7</ControlName>
+    <Key>e9b77c0e-d14f-4869-844b-02c15215ebff</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Purchasing</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC8</ControlName>
+    <Key>1b5e416e-ed6e-40bc-b270-53cd22123cdf</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC8</ControlName>
+    <Key>1b5e416e-ed6e-40bc-b270-53cd22123cdf</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC8</ControlName>
+    <Key>1b5e416e-ed6e-40bc-b270-53cd22123cdf</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC8</ControlName>
+    <Key>1b5e416e-ed6e-40bc-b270-53cd22123cdf</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC8</ControlName>
+    <Key>1b5e416e-ed6e-40bc-b270-53cd22123cdf</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC8</ControlName>
+    <Key>1b5e416e-ed6e-40bc-b270-53cd22123cdf</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>204</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC9</ControlName>
+    <Key>fc82ce0d-85ef-4612-852d-a61837d2dac4</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC9</ControlName>
+    <Key>fc82ce0d-85ef-4612-852d-a61837d2dac4</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC9</ControlName>
+    <Key>fc82ce0d-85ef-4612-852d-a61837d2dac4</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC9</ControlName>
+    <Key>fc82ce0d-85ef-4612-852d-a61837d2dac4</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC9</ControlName>
+    <Key>fc82ce0d-85ef-4612-852d-a61837d2dac4</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC9</ControlName>
+    <Key>fc82ce0d-85ef-4612-852d-a61837d2dac4</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>244</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC10</ControlName>
+    <Key>14e93d08-26f4-4681-968a-c5d89d763086</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC10</ControlName>
+    <Key>14e93d08-26f4-4681-968a-c5d89d763086</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC10</ControlName>
+    <Key>14e93d08-26f4-4681-968a-c5d89d763086</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC10</ControlName>
+    <Key>14e93d08-26f4-4681-968a-c5d89d763086</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC10</ControlName>
+    <Key>14e93d08-26f4-4681-968a-c5d89d763086</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC10</ControlName>
+    <Key>14e93d08-26f4-4681-968a-c5d89d763086</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>288</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC11</ControlName>
+    <Key>294de680-4009-4cbb-9020-91629ab44948</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC11</ControlName>
+    <Key>294de680-4009-4cbb-9020-91629ab44948</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC11</ControlName>
+    <Key>294de680-4009-4cbb-9020-91629ab44948</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC11</ControlName>
+    <Key>294de680-4009-4cbb-9020-91629ab44948</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC11</ControlName>
+    <Key>294de680-4009-4cbb-9020-91629ab44948</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC11</ControlName>
+    <Key>294de680-4009-4cbb-9020-91629ab44948</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>332</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC12</ControlName>
+    <Key>15fd5aa4-9036-4119-b071-1733961a44c9</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC12</ControlName>
+    <Key>15fd5aa4-9036-4119-b071-1733961a44c9</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC12</ControlName>
+    <Key>15fd5aa4-9036-4119-b071-1733961a44c9</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>33</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC12</ControlName>
+    <Key>15fd5aa4-9036-4119-b071-1733961a44c9</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>92</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC12</ControlName>
+    <Key>15fd5aa4-9036-4119-b071-1733961a44c9</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>34</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC12</ControlName>
+    <Key>15fd5aa4-9036-4119-b071-1733961a44c9</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>380</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC8</ControlName>
+    <Key>17cb71ad-fc61-4ee1-bb8f-e3a63c7a2fb8</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC9</ControlName>
+    <Key>58523ba7-89ef-4058-8edc-4d93c6ae3035</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC9</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC10</ControlName>
+    <Key>6253b485-27f7-4ad7-80ac-40047d1b40ed</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC10</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC11</ControlName>
+    <Key>3d78f1e3-b541-46a3-bd14-674644d5dffe</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC11</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC12</ControlName>
+    <Key>7c378e88-0061-48e2-bd9e-2755dc7bdbc5</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC12</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC8</ControlName>
+    <Key>1b5e416e-ed6e-40bc-b270-53cd22123cdf</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>QA Final</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC9</ControlName>
+    <Key>fc82ce0d-85ef-4612-852d-a61837d2dac4</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Accounting</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC10</ControlName>
+    <Key>14e93d08-26f4-4681-968a-c5d89d763086</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Contracts</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC11</ControlName>
+    <Key>294de680-4009-4cbb-9020-91629ab44948</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>MFG ENG</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC12</ControlName>
+    <Key>15fd5aa4-9036-4119-b071-1733961a44c9</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>General Managment</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC6</ControlName>
+    <Key>ab5c3af2-07a1-4339-89ba-d1a4e7a161ea</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckOff3</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC7</ControlName>
+    <Key>3f0ec5ca-e49f-4fa5-a4ca-269cdd706166</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckOff4</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC8</ControlName>
+    <Key>17cb71ad-fc61-4ee1-bb8f-e3a63c7a2fb8</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckOff5</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC9</ControlName>
+    <Key>58523ba7-89ef-4058-8edc-4d93c6ae3035</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckBox01</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC10</ControlName>
+    <Key>6253b485-27f7-4ad7-80ac-40047d1b40ed</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckBox02</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC11</ControlName>
+    <Key>3d78f1e3-b541-46a3-bd14-674644d5dffe</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckBox03</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC12</ControlName>
+    <Key>7c378e88-0061-48e2-bd9e-2755dc7bdbc5</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckBox04</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC10</ControlName>
+    <Key>5d92a97c-baff-4e0d-bfa1-48008b9f58be</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC10</ControlName>
+    <Key>5d92a97c-baff-4e0d-bfa1-48008b9f58be</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC10</ControlName>
+    <Key>5d92a97c-baff-4e0d-bfa1-48008b9f58be</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC10</ControlName>
+    <Key>5d92a97c-baff-4e0d-bfa1-48008b9f58be</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>398</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC10</ControlName>
+    <Key>5d92a97c-baff-4e0d-bfa1-48008b9f58be</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>304</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC10</ControlName>
+    <Key>5d92a97c-baff-4e0d-bfa1-48008b9f58be</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>24</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC11</ControlName>
+    <Key>4f7fd589-2e04-4d72-8f0c-074e19eade04</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC11</ControlName>
+    <Key>4f7fd589-2e04-4d72-8f0c-074e19eade04</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC11</ControlName>
+    <Key>4f7fd589-2e04-4d72-8f0c-074e19eade04</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC11</ControlName>
+    <Key>4f7fd589-2e04-4d72-8f0c-074e19eade04</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>398</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC11</ControlName>
+    <Key>4f7fd589-2e04-4d72-8f0c-074e19eade04</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>304</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC11</ControlName>
+    <Key>4f7fd589-2e04-4d72-8f0c-074e19eade04</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>68</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC12</ControlName>
+    <Key>b14f07ae-62a7-4bdb-9334-b488141bf5a7</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC12</ControlName>
+    <Key>b14f07ae-62a7-4bdb-9334-b488141bf5a7</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC12</ControlName>
+    <Key>b14f07ae-62a7-4bdb-9334-b488141bf5a7</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC12</ControlName>
+    <Key>b14f07ae-62a7-4bdb-9334-b488141bf5a7</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>398</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC12</ControlName>
+    <Key>b14f07ae-62a7-4bdb-9334-b488141bf5a7</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>304</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC12</ControlName>
+    <Key>b14f07ae-62a7-4bdb-9334-b488141bf5a7</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>112</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC13</ControlName>
+    <Key>e5ad2576-34ab-415c-a16f-5518569f94b4</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC13</ControlName>
+    <Key>e5ad2576-34ab-415c-a16f-5518569f94b4</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC13</ControlName>
+    <Key>e5ad2576-34ab-415c-a16f-5518569f94b4</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC13</ControlName>
+    <Key>e5ad2576-34ab-415c-a16f-5518569f94b4</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>398</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC13</ControlName>
+    <Key>e5ad2576-34ab-415c-a16f-5518569f94b4</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>304</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC13</ControlName>
+    <Key>e5ad2576-34ab-415c-a16f-5518569f94b4</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>156</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC14</ControlName>
+    <Key>b02eaf99-1018-4d80-8e56-db6ace844902</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC14</ControlName>
+    <Key>b02eaf99-1018-4d80-8e56-db6ace844902</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC14</ControlName>
+    <Key>b02eaf99-1018-4d80-8e56-db6ace844902</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC14</ControlName>
+    <Key>b02eaf99-1018-4d80-8e56-db6ace844902</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>398</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC14</ControlName>
+    <Key>b02eaf99-1018-4d80-8e56-db6ace844902</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>304</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC14</ControlName>
+    <Key>b02eaf99-1018-4d80-8e56-db6ace844902</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>200</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC15</ControlName>
+    <Key>b11ef1fb-38e6-4125-a068-429100f35f1b</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC15</ControlName>
+    <Key>b11ef1fb-38e6-4125-a068-429100f35f1b</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC15</ControlName>
+    <Key>b11ef1fb-38e6-4125-a068-429100f35f1b</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC15</ControlName>
+    <Key>b11ef1fb-38e6-4125-a068-429100f35f1b</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>398</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC15</ControlName>
+    <Key>b11ef1fb-38e6-4125-a068-429100f35f1b</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>304</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC15</ControlName>
+    <Key>b11ef1fb-38e6-4125-a068-429100f35f1b</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>244</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC16</ControlName>
+    <Key>948a3e3b-4371-4857-aac2-907b2d6c12a7</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC16</ControlName>
+    <Key>948a3e3b-4371-4857-aac2-907b2d6c12a7</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC16</ControlName>
+    <Key>948a3e3b-4371-4857-aac2-907b2d6c12a7</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC16</ControlName>
+    <Key>948a3e3b-4371-4857-aac2-907b2d6c12a7</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>398</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC16</ControlName>
+    <Key>948a3e3b-4371-4857-aac2-907b2d6c12a7</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>304</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC16</ControlName>
+    <Key>948a3e3b-4371-4857-aac2-907b2d6c12a7</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>288</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC17</ControlName>
+    <Key>a0d6d039-0e75-40a0-9489-1817cbb38264</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC17</ControlName>
+    <Key>a0d6d039-0e75-40a0-9489-1817cbb38264</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC17</ControlName>
+    <Key>a0d6d039-0e75-40a0-9489-1817cbb38264</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC17</ControlName>
+    <Key>a0d6d039-0e75-40a0-9489-1817cbb38264</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>398</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC17</ControlName>
+    <Key>a0d6d039-0e75-40a0-9489-1817cbb38264</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>304</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC17</ControlName>
+    <Key>a0d6d039-0e75-40a0-9489-1817cbb38264</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>332</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC18</ControlName>
+    <Key>be2030b7-b0a3-4b89-93ce-7bb4f47fc559</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC18</ControlName>
+    <Key>be2030b7-b0a3-4b89-93ce-7bb4f47fc559</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>551c8cc6-fe1c-49d4-a15d-616ca170de4e</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC18</ControlName>
+    <Key>be2030b7-b0a3-4b89-93ce-7bb4f47fc559</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC18</ControlName>
+    <Key>be2030b7-b0a3-4b89-93ce-7bb4f47fc559</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>398</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC18</ControlName>
+    <Key>be2030b7-b0a3-4b89-93ce-7bb4f47fc559</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>304</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC18</ControlName>
+    <Key>be2030b7-b0a3-4b89-93ce-7bb4f47fc559</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>376</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC10</ControlName>
+    <Key>5d92a97c-baff-4e0d-bfa1-48008b9f58be</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.Character01</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC11</ControlName>
+    <Key>4f7fd589-2e04-4d72-8f0c-074e19eade04</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.Character02</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC12</ControlName>
+    <Key>b14f07ae-62a7-4bdb-9334-b488141bf5a7</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.Character03</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC13</ControlName>
+    <Key>e5ad2576-34ab-415c-a16f-5518569f94b4</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.Character04</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC14</ControlName>
+    <Key>b02eaf99-1018-4d80-8e56-db6ace844902</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.Character05</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC15</ControlName>
+    <Key>b11ef1fb-38e6-4125-a068-429100f35f1b</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.Character06</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC16</ControlName>
+    <Key>948a3e3b-4371-4857-aac2-907b2d6c12a7</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.Character07</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC17</ControlName>
+    <Key>a0d6d039-0e75-40a0-9489-1817cbb38264</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.Character08</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC18</ControlName>
+    <Key>be2030b7-b0a3-4b89-93ce-7bb4f47fc559</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.Character09</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC13</ControlName>
+    <Key>902702e2-87d1-42a6-80cc-de138dee114c</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC13</ControlName>
+    <Key>902702e2-87d1-42a6-80cc-de138dee114c</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>a6ed0a92-581b-4d5c-af74-982228570447</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC13</ControlName>
+    <Key>902702e2-87d1-42a6-80cc-de138dee114c</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>17</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC13</ControlName>
+    <Key>902702e2-87d1-42a6-80cc-de138dee114c</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC13</ControlName>
+    <Key>902702e2-87d1-42a6-80cc-de138dee114c</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>128</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC13</ControlName>
+    <Key>902702e2-87d1-42a6-80cc-de138dee114c</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>188</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC13</ControlName>
+    <Key>ab2eaa32-97b0-4697-a727-906da68d3ffa</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC13</ControlName>
+    <Key>ab2eaa32-97b0-4697-a727-906da68d3ffa</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>a6ed0a92-581b-4d5c-af74-982228570447</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC13</ControlName>
+    <Key>ab2eaa32-97b0-4697-a727-906da68d3ffa</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC13</ControlName>
+    <Key>ab2eaa32-97b0-4697-a727-906da68d3ffa</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC13</ControlName>
+    <Key>ab2eaa32-97b0-4697-a727-906da68d3ffa</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>14</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC13</ControlName>
+    <Key>ab2eaa32-97b0-4697-a727-906da68d3ffa</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>188</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC13</ControlName>
+    <Key>902702e2-87d1-42a6-80cc-de138dee114c</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC13</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiLabelC13</ControlName>
+    <Key>ab2eaa32-97b0-4697-a727-906da68d3ffa</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Gen Managment:</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiCheckBoxC13</ControlName>
+    <Key>902702e2-87d1-42a6-80cc-de138dee114c</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>DMRHead.CheckBox04</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC10</ControlName>
+    <Key>5d92a97c-baff-4e0d-bfa1-48008b9f58be</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>51e1315e-213b-480b-85e8-244642b21158</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC2</ControlName>
+    <Key>891045e1-5fcf-4079-8893-865d9ed42244</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC11</ControlName>
+    <Key>4f7fd589-2e04-4d72-8f0c-074e19eade04</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC3</ControlName>
+    <Key>3192a0fe-699a-4503-b5c4-7ab6dae37072</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC12</ControlName>
+    <Key>b14f07ae-62a7-4bdb-9334-b488141bf5a7</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC13</ControlName>
+    <Key>e5ad2576-34ab-415c-a16f-5518569f94b4</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC4</ControlName>
+    <Key>19c17172-34a9-46ea-884b-88f201b2fb99</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC5</ControlName>
+    <Key>73036612-f281-4d43-991b-3b8e6f1a43f8</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC6</ControlName>
+    <Key>88f10199-722b-47af-9fc6-6b4d63a884fd</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC7</ControlName>
+    <Key>323dd46d-951d-49d6-ae58-ffc000d8c58a</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>13ea08a4-4ee1-45b5-b8d9-b74c7374a4c6</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC9</ControlName>
+    <Key>94802c06-db3f-4366-93cf-87e7ad2e47a4</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC14</ControlName>
+    <Key>b02eaf99-1018-4d80-8e56-db6ace844902</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC15</ControlName>
+    <Key>b11ef1fb-38e6-4125-a068-429100f35f1b</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC16</ControlName>
+    <Key>948a3e3b-4371-4857-aac2-907b2d6c12a7</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC17</ControlName>
+    <Key>a0d6d039-0e75-40a0-9489-1817cbb38264</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>DMRProcessingForm</FormsID>
+    <ControlName>epiTextBoxC18</ControlName>
+    <Key>be2030b7-b0a3-4b89-93ce-7bb4f47fc559</Key>
+    <PropertyName>Multiline</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+</CustomizationDS>
