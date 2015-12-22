@@ -1,0 +1,2780 @@
+<?xml version="1.0" standalone="yes"?>
+<CustomizationDS xmlns="http://tempuri.org/XMLSchema.xsd">
+  <xs:schema id="CustomizationDS" targetNamespace="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="CustomizationDS" msdata:IsDataSet="true" msdata:Locale="" msprop:Key2="App.ReasonEntry.ReasonForm" msprop:CGCCode="" msprop:CommentText="" msprop:Key3="" msprop:Key1="FPI_ReasonCodeV3" msprop:Description="FPI_ReasonCodeV3" msprop:TypeCode="Customization" msprop:ProductID="EP" msprop:Company="CIC68322" msprop:BuildVersion="9.05.702A">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Controls">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormsID" type="xs:string" />
+                <xs:element name="ControlName" type="xs:string" />
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="ParentControlKey" type="xs:string" />
+                <xs:element name="ControlType" type="xs:string" />
+                <xs:element name="Company" type="xs:string" />
+                <xs:element name="Plant" type="xs:string" />
+                <xs:element name="DcdUserId" type="xs:string" />
+                <xs:element name="GroupID" type="xs:string" />
+                <xs:element name="ControlsID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Properties">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormsID" type="xs:string" />
+                <xs:element name="ControlName" type="xs:string" />
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="PropertyName" type="xs:string" />
+                <xs:element name="PropertyValue" type="xs:string" />
+                <xs:element name="Company" type="xs:string" />
+                <xs:element name="Plant" type="xs:string" />
+                <xs:element name="DcdUserID" type="xs:string" />
+                <xs:element name="GroupID" type="xs:string" />
+                <xs:element name="PropertiesID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</Key>
+    <ParentControlKey>mainDock1.auxMainPanel1.windowDockingArea1.</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiBasePanel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMRUSERS</ControlName>
+    <Key>206f1abd-4807-4257-b3ff-23d875530ad3</Key>
+    <ParentControlKey>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiUltraGrid</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epicor.mfg.bo.dynamicquery.dll</ControlName>
+    <Key>EpiString.ExecutionPath*epicor.mfg.bo.dynamicquery.dll</Key>
+    <ParentControlKey />
+    <ControlType>AssemblyReference</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epicor.mfg.if.idynamicquery.dll</ControlName>
+    <Key>EpiString.ExecutionPath*epicor.mfg.if.idynamicquery.dll</Key>
+    <ParentControlKey />
+    <ControlType>AssemblyReference</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epicor.mfg.ad.dynamicquery.dll</ControlName>
+    <Key>EpiString.ExecutionPath*epicor.mfg.ad.dynamicquery.dll</Key>
+    <ParentControlKey />
+    <ControlType>AssemblyReference</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epicor.mfg.core.blconnectionpool.dll</ControlName>
+    <Key>EpiString.ExecutionPath*epicor.mfg.core.blconnectionpool.dll</Key>
+    <ParentControlKey />
+    <ControlType>AssemblyReference</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiGroupBoxC1</ControlName>
+    <Key>5ba50a47-745d-4c03-867f-83840c7df4cc</Key>
+    <ParentControlKey>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiGroupBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDmrUserList</ControlName>
+    <Key>3e63087f-b4af-4c5a-974e-a981ecbe0709</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiUltraGrid</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_CT</ControlName>
+    <Key>e3eccef7-f2fe-4c00-846f-1a1652e76e1a</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiUltraGrid</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_TX</ControlName>
+    <Key>367b7c86-a087-46bd-98ae-c963e57b7c64</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiUltraGrid</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_MX</ControlName>
+    <Key>15895738-5c74-4b38-ba94-af9c3a59a228</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiUltraGrid</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_UK</ControlName>
+    <Key>b99fcaa4-58fa-4238-8324-d2ff5c5e2fc9</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiUltraGrid</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_PL</ControlName>
+    <Key>3775d110-216f-488a-9918-c8c7b532bc53</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiUltraGrid</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_Other</ControlName>
+    <Key>d75d3e89-cb9f-4eba-97c4-94f0cdb0b370</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiUltraGrid</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnLOAD</ControlName>
+    <Key>41161a1b-9bb4-4085-864a-14db79da309f</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epicor.mfg.core.session.dll</ControlName>
+    <Key>EpiString.ExecutionPath*epicor.mfg.core.session.dll</Key>
+    <ParentControlKey />
+    <ControlType>AssemblyReference</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTADD</ControlName>
+    <Key>12056e37-7ad2-4e9f-bcb9-e7076fd1c6fb</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epicor.mfg.if.iuserfile.dll</ControlName>
+    <Key>EpiString.ExecutionPath*epicor.mfg.if.iuserfile.dll</Key>
+    <ParentControlKey />
+    <ControlType>AssemblyReference</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXADD</ControlName>
+    <Key>5ead52ab-f0d5-4dfc-bfa8-c964c1435a90</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXADD</ControlName>
+    <Key>e8e09d1d-0b74-4f44-b8d0-cc19f8d6183b</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKADD</ControlName>
+    <Key>5a4d9216-f737-4703-adb6-493b7d743220</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLADD</ControlName>
+    <Key>19050323-3fa2-457b-9866-bf7e3048d8b2</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXADD</ControlName>
+    <Key>3584efa4-afd0-4d52-92f4-1831f972d8c5</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTDEL</ControlName>
+    <Key>51b5fd5c-a0d8-44d7-928f-817bb3d54d6a</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXDEL</ControlName>
+    <Key>2f3e611e-9349-47ea-b314-5e480240bf26</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXDEL</ControlName>
+    <Key>ea2b6cf6-583e-4112-981d-1a4d541c7323</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKDEL</ControlName>
+    <Key>ca685db0-c136-4e6f-a0bc-cfc382e58f32</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLDEL</ControlName>
+    <Key>424422fd-0162-408a-8619-9594779f7587</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXDEL</ControlName>
+    <Key>e7a7d6ee-eb00-47b8-938f-7d83b782bc9a</Key>
+    <ParentControlKey>5ba50a47-745d-4c03-867f-83840c7df4cc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>Customization</ControlName>
+    <Key>C788E4DC-B4A8-422a-B6E1-D42DB2C0B0C6</Key>
+    <PropertyName>Script</PropertyName>
+    <PropertyValue>// **************************************************
+// Custom code for ReasonForm
+// Created: 10/7/2015 12:38:05 PM
+// **************************************************
+using System;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics;
+using System.Windows.Forms;
+using Epicor.Mfg.BO;
+using Epicor.Mfg.Core;
+using Epicor.Mfg.UI;
+using Epicor.Mfg.UI.Adapters;
+using Epicor.Mfg.UI.Customization;
+using Epicor.Mfg.UI.ExtendedProps;
+using Epicor.Mfg.UI.FormFunctions;
+using Epicor.Mfg.UI.FrameWork;
+using Epicor.Mfg.UI.Searches;
+using Epicor.Mfg.Lib;
+using System.Collections.Generic;
+using Infragistics.Win.UltraWinToolbars;
+using Infragistics.Win.UltraWinGrid;
+using System.Reflection;
+
+
+public class Script
+{
+	// ** Wizard Insert Location - Do Not Remove 'Begin/End Wizard Added Module Level Variables' Comments! **
+	// Begin Wizard Added Module Level Variables **
+	private EpiDataView edvReasonData;
+
+	private EpiDataView edvReasonDetail;
+	// End Wizard Added Module Level Variables **
+	Epicor.Mfg.Core.Session session;
+	// Add Custom Module Level Variables Here **
+	private List&lt;string&gt; selUsers = new List&lt;string&gt;();
+
+	public void InitializeCustomCode()
+	{
+		// ** Wizard Insert Location - Do not delete 'Begin/End Wizard Added Variable Initialization' lines **
+		// Begin Wizard Added Variable Initialization
+
+		this.edvReasonDetail = ((EpiDataView)(this.oTrans.EpiDataViews["ReasonDetail"]));
+		this.edvReasonDetail.EpiViewNotification += new EpiViewNotification(this.edvReasonDetail_EpiViewNotification);
+		// End Wizard Added Variable Initialization
+
+		// Begin Wizard Added Custom Method Calls
+		session = (Epicor.Mfg.Core.Session)ReasonForm.Session;
+		this.btnLOAD.Click += new System.EventHandler(this.btnLOAD_Click);
+		this.btnCTADD.Click += new System.EventHandler(this.btnCTADD_Click);
+		this.btnTXADD.Click += new System.EventHandler(this.btnTXADD_Click);
+		this.btnUKADD.Click += new System.EventHandler(this.btnUKADD_Click);
+		this.btnPLADD.Click += new System.EventHandler(this.btnPLADD_Click);
+		this.btnMXADD.Click += new System.EventHandler(this.btnMXADD_Click);
+		this.btnXXADD.Click += new System.EventHandler(this.btnXXADD_Click);
+		this.btnCTDEL.Click += new System.EventHandler(this.btnCTDEL_Click);
+		this.btnMXDEL.Click += new System.EventHandler(this.btnMXDEL_Click);
+		this.btnPLDEL.Click += new System.EventHandler(this.btnPLDEL_Click);
+		this.btnTXDEL.Click += new System.EventHandler(this.btnTXDEL_Click);
+		this.btnUKDEL.Click += new System.EventHandler(this.btnUKDEL_Click);
+		this.btnXXDEL.Click += new System.EventHandler(this.btnXXDEL_Click);
+		// End Wizard Added Custom Method Calls
+	}
+
+	public void DestroyCustomCode()
+	{
+		// ** Wizard Insert Location - Do not delete 'Begin/End Wizard Added Object Disposal' lines **
+		// Begin Wizard Added Object Disposal
+
+		this.btnLOAD.Click -= new System.EventHandler(this.btnLOAD_Click);
+		this.btnCTADD.Click -= new System.EventHandler(this.btnCTADD_Click);
+		this.edvReasonDetail.EpiViewNotification -= new EpiViewNotification(this.edvReasonDetail_EpiViewNotification);
+		this.edvReasonDetail = null;
+		this.btnTXADD.Click -= new System.EventHandler(this.btnTXADD_Click);
+		this.btnUKADD.Click -= new System.EventHandler(this.btnUKADD_Click);
+		this.btnPLADD.Click -= new System.EventHandler(this.btnPLADD_Click);
+		this.btnMXADD.Click -= new System.EventHandler(this.btnMXADD_Click);
+		this.btnXXADD.Click -= new System.EventHandler(this.btnXXADD_Click);
+		this.btnCTDEL.Click -= new System.EventHandler(this.btnCTDEL_Click);
+		this.btnMXDEL.Click -= new System.EventHandler(this.btnMXDEL_Click);
+		this.btnPLDEL.Click -= new System.EventHandler(this.btnPLDEL_Click);
+		this.btnTXDEL.Click -= new System.EventHandler(this.btnTXDEL_Click);
+		this.btnUKDEL.Click -= new System.EventHandler(this.btnUKDEL_Click);
+		this.btnXXDEL.Click -= new System.EventHandler(this.btnXXDEL_Click);
+		// End Wizard Added Object Disposal
+
+		// Begin Custom Code Disposal
+
+		// End Custom Code Disposal
+	}
+
+	private void btnLOAD_Click(object sender, System.EventArgs args)
+	{
+		// ** Place Event Handling Code Here **
+	
+		QueryDesignDataSet dataset = new QueryDesignDataSet();
+		DynamicQuery query = new DynamicQuery(session.ConnectionPool);
+		dataset = query.GetByID("CIC68322-DMRUsers");
+		//dataset.QueryWhereItem[0].RValue = 123;
+		//DataTable table = query.Execute(dataset).Tables["Results"];
+		epiDmrUserList.DataSource = query.Execute(dataset).Tables["Results"];
+	
+	}
+
+
+	private void Add_Click(ref DataTable dt, string el)
+	{
+		if(edvReasonDetail.Row == -1)
+		{
+			MessageBox.Show("Please load a reason first");
+			return;
+		}
+        foreach (UltraGridRow row in epiDmrUserList.Selected.Rows)
+		{
+			DataRow r = dt.NewRow();
+			r["Email"] = row.Cells[0].Value.ToString();
+			dt.Rows.Add(r);
+		}
+        String catUsers = "";
+        foreach (DataRow r in dt.Rows)
+		{
+            if (((string)r["Email"]).Length &gt; 0)
+			{
+				if(catUsers.Length &gt; 0) catUsers += "~";
+                catUsers += (string)r["Email"];
+			}
+		}
+        edvReasonDetail.dataView[edvReasonDetail.Row][el] = catUsers;
+	}
+
+	private void Del_Click(ref DataTable dt, string el, EpiUltraGrid ug)
+	{
+		if(edvReasonDetail.Row == -1)
+		{
+			MessageBox.Show("Please load a reason first");
+			return;
+		}
+		string emaillist = string.Empty;
+        foreach (UltraGridRow row in ug.Selected.Rows)emaillist += (emaillist.Length &gt; 0 ? "~":"") + row.Cells[0].Value.ToString();
+		foreach(string s in emaillist.Split('~'))
+		{
+			for(int i = 0; i &lt; dt.Rows.Count; i++)
+			{
+				if((string)dt.Rows[i]["Email"] == s)dt.Rows[i].Delete();
+			}
+		}
+        String catUsers = "";
+        foreach (DataRow r in dt.Rows)
+		{
+            if (((string)r["Email"]).Length &gt; 0)catUsers += (catUsers.Length &gt; 0 ? "~":"") + (string)r["Email"];
+		}
+        edvReasonDetail.dataView[edvReasonDetail.Row][el] = catUsers;
+	}
+
+
+DataTable DMR_CT, DMR_TX, DMR_MX, DMR_UK, DMR_PL, DMR_Other;
+	private void edvReasonDetail_EpiViewNotification(EpiDataView view, EpiNotifyArgs args)
+	{
+		// ** Argument Properties and Uses **
+		// view.dataView[args.Row]["FieldName"]
+		// args.Row, args.Column, args.Sender, args.NotifyType
+		// NotifyType.Initialize, NotifyType.AddRow, NotifyType.DeleteRow, NotifyType.InitLastView, NotifyType.InitAndResetTreeNodes
+		if ((args.NotifyType == EpiTransaction.NotifyType.Initialize))
+		{
+			if ((args.Row &gt; -1))
+			{
+				//MessageBox.Show((string)edvReasonDetail.dataView[edvReasonDetail.Row]["Character01"]);
+				InitializeDatagrid(ref DMR_CT, ref epiDMR_CT, "Character01");
+				InitializeDatagrid(ref DMR_TX, ref epiDMR_TX, "Character02");
+				InitializeDatagrid(ref DMR_MX, ref epiDMR_MX, "Character03");
+				InitializeDatagrid(ref DMR_UK, ref epiDMR_UK, "Character04");
+				InitializeDatagrid(ref DMR_PL, ref epiDMR_PL, "Character05");
+				InitializeDatagrid(ref DMR_Other, ref epiDMR_Other, "Character06");
+			}
+			else
+			{
+				ClearAll(ref DMR_CT);
+				ClearAll(ref DMR_TX);
+				ClearAll(ref DMR_MX);
+				ClearAll(ref DMR_UK);
+				ClearAll(ref DMR_PL);
+				ClearAll(ref DMR_Other);
+			}
+		}
+	}
+	private void ClearAll(ref DataTable dt)
+	{
+		if(dt != null)
+		while(dt.Rows.Count &gt; 0)dt.Rows[0].Delete();
+	}
+	private void InitializeDatagrid(ref DataTable dt, ref EpiUltraGrid dg, string el)
+	{
+		dt = new DataTable();
+		dt.Columns.Add(new DataColumn("Email", typeof(string)));
+		oTrans.PushStatusText((string)edvReasonDetail.dataView[edvReasonDetail.Row][el], false);
+		foreach(string e in ((string)edvReasonDetail.dataView[edvReasonDetail.Row][el]).Split('~'))
+		{
+			if(e == string.Empty)continue;
+			DataRow r = dt.NewRow();
+			r["Email"] = e;
+			dt.Rows.Add(r);
+		}
+		dg.DataSource = dt;
+	}
+
+	private void btnCTADD_Click(object sender, System.EventArgs args)
+	{
+		Add_Click(ref DMR_CT, "Character01");
+    }
+
+	private void btnTXADD_Click(object sender, System.EventArgs args)
+	{
+		Add_Click(ref DMR_TX, "Character02");
+	}
+
+	private void btnMXADD_Click(object sender, System.EventArgs args)
+	{
+		Add_Click(ref DMR_MX, "Character03");
+	}
+
+	private void btnUKADD_Click(object sender, System.EventArgs args)
+	{
+		Add_Click(ref DMR_UK, "Character04");
+	}
+
+	private void btnPLADD_Click(object sender, System.EventArgs args)
+	{
+		Add_Click(ref DMR_PL, "Character05");
+	}
+
+	private void btnXXADD_Click(object sender, System.EventArgs args)
+	{
+		Add_Click(ref DMR_Other, "Character06");
+	}
+
+	private void btnCTDEL_Click(object sender, System.EventArgs args)
+	{
+		Del_Click(ref DMR_CT, "Character01", epiDMR_CT);
+	}
+
+	private void btnMXDEL_Click(object sender, System.EventArgs args)
+	{
+		Del_Click(ref DMR_MX, "Character03", epiDMR_MX);
+	}
+
+	private void btnPLDEL_Click(object sender, System.EventArgs args)
+	{
+		Del_Click(ref DMR_PL, "Character05", epiDMR_PL);
+	}
+
+	private void btnTXDEL_Click(object sender, System.EventArgs args)
+	{
+		Del_Click(ref DMR_TX, "Character02", epiDMR_TX);
+	}
+
+	private void btnUKDEL_Click(object sender, System.EventArgs args)
+	{
+		Del_Click(ref DMR_UK, "Character04", epiDMR_UK);
+	}
+
+	private void btnXXDEL_Click(object sender, System.EventArgs args)
+	{
+		Del_Click(ref DMR_Other, "Character06", epiDMR_Other);
+	}
+}
+</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>Customization</ControlName>
+    <Key>C788E4DC-B4A8-422a-B6E1-D42DB2C0B0C6</Key>
+    <PropertyName>Language</PropertyName>
+    <PropertyValue>CSharp</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>d7cb76c7-cf7a-4da2-bcf9-4949b2c5fdaa</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>614</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>d7cb76c7-cf7a-4da2-bcf9-4949b2c5fdaa</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>581</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>d7cb76c7-cf7a-4da2-bcf9-4949b2c5fdaa</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>d7cb76c7-cf7a-4da2-bcf9-4949b2c5fdaa</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Alert Matrix</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</Key>
+    <PropertyName>TextTab</PropertyName>
+    <PropertyValue>AlertMatrix</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>baseDockManager15d4f566-ef13-44f5-85be-3fcba8826f7f</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMRUSERS</ControlName>
+    <Key>206f1abd-4807-4257-b3ff-23d875530ad3</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMRUSERS</ControlName>
+    <Key>206f1abd-4807-4257-b3ff-23d875530ad3</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMRUSERS</ControlName>
+    <Key>206f1abd-4807-4257-b3ff-23d875530ad3</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMRUSERS</ControlName>
+    <Key>206f1abd-4807-4257-b3ff-23d875530ad3</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMRUSERS</ControlName>
+    <Key>206f1abd-4807-4257-b3ff-23d875530ad3</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMRUSERS</ControlName>
+    <Key>206f1abd-4807-4257-b3ff-23d875530ad3</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>652</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>852</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>AlertMatrix</ControlName>
+    <Key>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMRUSERS</ControlName>
+    <Key>206f1abd-4807-4257-b3ff-23d875530ad3</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue />
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiGroupBoxC1</ControlName>
+    <Key>5ba50a47-745d-4c03-867f-83840c7df4cc</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>2</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiGroupBoxC1</ControlName>
+    <Key>5ba50a47-745d-4c03-867f-83840c7df4cc</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>c0fc1802-9420-48f6-9a7f-e9baf2d9af8d</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiGroupBoxC1</ControlName>
+    <Key>5ba50a47-745d-4c03-867f-83840c7df4cc</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>630</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiGroupBoxC1</ControlName>
+    <Key>5ba50a47-745d-4c03-867f-83840c7df4cc</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>643</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiGroupBoxC1</ControlName>
+    <Key>5ba50a47-745d-4c03-867f-83840c7df4cc</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiGroupBoxC1</ControlName>
+    <Key>5ba50a47-745d-4c03-867f-83840c7df4cc</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiGroupBoxC1</ControlName>
+    <Key>5ba50a47-745d-4c03-867f-83840c7df4cc</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Alert Matrix</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDmrUserList</ControlName>
+    <Key>3e63087f-b4af-4c5a-974e-a981ecbe0709</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDmrUserList</ControlName>
+    <Key>3e63087f-b4af-4c5a-974e-a981ecbe0709</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDmrUserList</ControlName>
+    <Key>3e63087f-b4af-4c5a-974e-a981ecbe0709</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>566</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDmrUserList</ControlName>
+    <Key>3e63087f-b4af-4c5a-974e-a981ecbe0709</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>179</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDmrUserList</ControlName>
+    <Key>3e63087f-b4af-4c5a-974e-a981ecbe0709</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDmrUserList</ControlName>
+    <Key>3e63087f-b4af-4c5a-974e-a981ecbe0709</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>24</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDmrUserList</ControlName>
+    <Key>3e63087f-b4af-4c5a-974e-a981ecbe0709</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>DMR Users</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_CT</ControlName>
+    <Key>e3eccef7-f2fe-4c00-846f-1a1652e76e1a</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_CT</ControlName>
+    <Key>e3eccef7-f2fe-4c00-846f-1a1652e76e1a</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_CT</ControlName>
+    <Key>e3eccef7-f2fe-4c00-846f-1a1652e76e1a</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>263</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_CT</ControlName>
+    <Key>e3eccef7-f2fe-4c00-846f-1a1652e76e1a</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>131</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_CT</ControlName>
+    <Key>e3eccef7-f2fe-4c00-846f-1a1652e76e1a</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>200</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_CT</ControlName>
+    <Key>e3eccef7-f2fe-4c00-846f-1a1652e76e1a</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>24</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_CT</ControlName>
+    <Key>e3eccef7-f2fe-4c00-846f-1a1652e76e1a</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>FPI CT Users</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_TX</ControlName>
+    <Key>367b7c86-a087-46bd-98ae-c963e57b7c64</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_TX</ControlName>
+    <Key>367b7c86-a087-46bd-98ae-c963e57b7c64</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_TX</ControlName>
+    <Key>367b7c86-a087-46bd-98ae-c963e57b7c64</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>263</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_TX</ControlName>
+    <Key>367b7c86-a087-46bd-98ae-c963e57b7c64</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>131</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_TX</ControlName>
+    <Key>367b7c86-a087-46bd-98ae-c963e57b7c64</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>352</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_TX</ControlName>
+    <Key>367b7c86-a087-46bd-98ae-c963e57b7c64</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>24</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_TX</ControlName>
+    <Key>367b7c86-a087-46bd-98ae-c963e57b7c64</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>FPI TX Users</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>reasonDetailPanel1</ControlName>
+    <Key>4fb6f18f-828c-427d-b7a2-6088f7988598</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>682</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>reasonDetailPanel1</ControlName>
+    <Key>4fb6f18f-828c-427d-b7a2-6088f7988598</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>660</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_MX</ControlName>
+    <Key>15895738-5c74-4b38-ba94-af9c3a59a228</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_MX</ControlName>
+    <Key>15895738-5c74-4b38-ba94-af9c3a59a228</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_MX</ControlName>
+    <Key>15895738-5c74-4b38-ba94-af9c3a59a228</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>263</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_MX</ControlName>
+    <Key>15895738-5c74-4b38-ba94-af9c3a59a228</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>131</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_MX</ControlName>
+    <Key>15895738-5c74-4b38-ba94-af9c3a59a228</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>504</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_MX</ControlName>
+    <Key>15895738-5c74-4b38-ba94-af9c3a59a228</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>24</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_MX</ControlName>
+    <Key>15895738-5c74-4b38-ba94-af9c3a59a228</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>FPI MX Users</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_UK</ControlName>
+    <Key>b99fcaa4-58fa-4238-8324-d2ff5c5e2fc9</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_UK</ControlName>
+    <Key>b99fcaa4-58fa-4238-8324-d2ff5c5e2fc9</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_UK</ControlName>
+    <Key>b99fcaa4-58fa-4238-8324-d2ff5c5e2fc9</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>263</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_UK</ControlName>
+    <Key>b99fcaa4-58fa-4238-8324-d2ff5c5e2fc9</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>131</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_UK</ControlName>
+    <Key>b99fcaa4-58fa-4238-8324-d2ff5c5e2fc9</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>200</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_UK</ControlName>
+    <Key>b99fcaa4-58fa-4238-8324-d2ff5c5e2fc9</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>328</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_UK</ControlName>
+    <Key>b99fcaa4-58fa-4238-8324-d2ff5c5e2fc9</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>FPI UK Users</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_PL</ControlName>
+    <Key>3775d110-216f-488a-9918-c8c7b532bc53</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_PL</ControlName>
+    <Key>3775d110-216f-488a-9918-c8c7b532bc53</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_PL</ControlName>
+    <Key>3775d110-216f-488a-9918-c8c7b532bc53</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>263</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_PL</ControlName>
+    <Key>3775d110-216f-488a-9918-c8c7b532bc53</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>131</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_PL</ControlName>
+    <Key>3775d110-216f-488a-9918-c8c7b532bc53</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>352</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_PL</ControlName>
+    <Key>3775d110-216f-488a-9918-c8c7b532bc53</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>328</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_PL</ControlName>
+    <Key>3775d110-216f-488a-9918-c8c7b532bc53</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>FPI PL Users</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_Other</ControlName>
+    <Key>d75d3e89-cb9f-4eba-97c4-94f0cdb0b370</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_Other</ControlName>
+    <Key>d75d3e89-cb9f-4eba-97c4-94f0cdb0b370</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_Other</ControlName>
+    <Key>d75d3e89-cb9f-4eba-97c4-94f0cdb0b370</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>263</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_Other</ControlName>
+    <Key>d75d3e89-cb9f-4eba-97c4-94f0cdb0b370</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>131</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_Other</ControlName>
+    <Key>d75d3e89-cb9f-4eba-97c4-94f0cdb0b370</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>504</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_Other</ControlName>
+    <Key>d75d3e89-cb9f-4eba-97c4-94f0cdb0b370</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>328</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiDMR_Other</ControlName>
+    <Key>d75d3e89-cb9f-4eba-97c4-94f0cdb0b370</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>None FPI </PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnLOAD</ControlName>
+    <Key>41161a1b-9bb4-4085-864a-14db79da309f</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnLOAD</ControlName>
+    <Key>41161a1b-9bb4-4085-864a-14db79da309f</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnLOAD</ControlName>
+    <Key>41161a1b-9bb4-4085-864a-14db79da309f</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>30</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnLOAD</ControlName>
+    <Key>41161a1b-9bb4-4085-864a-14db79da309f</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>179</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnLOAD</ControlName>
+    <Key>41161a1b-9bb4-4085-864a-14db79da309f</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnLOAD</ControlName>
+    <Key>41161a1b-9bb4-4085-864a-14db79da309f</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>591</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnLOAD</ControlName>
+    <Key>41161a1b-9bb4-4085-864a-14db79da309f</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>LOAD</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTADD</ControlName>
+    <Key>12056e37-7ad2-4e9f-bcb9-e7076fd1c6fb</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTADD</ControlName>
+    <Key>12056e37-7ad2-4e9f-bcb9-e7076fd1c6fb</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTADD</ControlName>
+    <Key>12056e37-7ad2-4e9f-bcb9-e7076fd1c6fb</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTADD</ControlName>
+    <Key>12056e37-7ad2-4e9f-bcb9-e7076fd1c6fb</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTADD</ControlName>
+    <Key>12056e37-7ad2-4e9f-bcb9-e7076fd1c6fb</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>200</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTADD</ControlName>
+    <Key>12056e37-7ad2-4e9f-bcb9-e7076fd1c6fb</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>288</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTADD</ControlName>
+    <Key>12056e37-7ad2-4e9f-bcb9-e7076fd1c6fb</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>+CT</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXADD</ControlName>
+    <Key>5ead52ab-f0d5-4dfc-bfa8-c964c1435a90</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXADD</ControlName>
+    <Key>5ead52ab-f0d5-4dfc-bfa8-c964c1435a90</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXADD</ControlName>
+    <Key>5ead52ab-f0d5-4dfc-bfa8-c964c1435a90</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXADD</ControlName>
+    <Key>5ead52ab-f0d5-4dfc-bfa8-c964c1435a90</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXADD</ControlName>
+    <Key>5ead52ab-f0d5-4dfc-bfa8-c964c1435a90</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>352</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXADD</ControlName>
+    <Key>5ead52ab-f0d5-4dfc-bfa8-c964c1435a90</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>288</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXADD</ControlName>
+    <Key>e8e09d1d-0b74-4f44-b8d0-cc19f8d6183b</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXADD</ControlName>
+    <Key>e8e09d1d-0b74-4f44-b8d0-cc19f8d6183b</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXADD</ControlName>
+    <Key>e8e09d1d-0b74-4f44-b8d0-cc19f8d6183b</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXADD</ControlName>
+    <Key>e8e09d1d-0b74-4f44-b8d0-cc19f8d6183b</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXADD</ControlName>
+    <Key>e8e09d1d-0b74-4f44-b8d0-cc19f8d6183b</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>504</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXADD</ControlName>
+    <Key>e8e09d1d-0b74-4f44-b8d0-cc19f8d6183b</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>288</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKADD</ControlName>
+    <Key>5a4d9216-f737-4703-adb6-493b7d743220</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKADD</ControlName>
+    <Key>5a4d9216-f737-4703-adb6-493b7d743220</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKADD</ControlName>
+    <Key>5a4d9216-f737-4703-adb6-493b7d743220</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKADD</ControlName>
+    <Key>5a4d9216-f737-4703-adb6-493b7d743220</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKADD</ControlName>
+    <Key>5a4d9216-f737-4703-adb6-493b7d743220</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>200</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKADD</ControlName>
+    <Key>5a4d9216-f737-4703-adb6-493b7d743220</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>592</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLADD</ControlName>
+    <Key>19050323-3fa2-457b-9866-bf7e3048d8b2</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLADD</ControlName>
+    <Key>19050323-3fa2-457b-9866-bf7e3048d8b2</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLADD</ControlName>
+    <Key>19050323-3fa2-457b-9866-bf7e3048d8b2</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLADD</ControlName>
+    <Key>19050323-3fa2-457b-9866-bf7e3048d8b2</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLADD</ControlName>
+    <Key>19050323-3fa2-457b-9866-bf7e3048d8b2</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>352</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLADD</ControlName>
+    <Key>19050323-3fa2-457b-9866-bf7e3048d8b2</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>592</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>ReasonForm</ControlName>
+    <Key>C788E4DC-B4A8-422a-B6E1-D42DB2C0B0C6</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>836</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>ReasonForm</ControlName>
+    <Key>C788E4DC-B4A8-422a-B6E1-D42DB2C0B0C6</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>980</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXADD</ControlName>
+    <Key>3584efa4-afd0-4d52-92f4-1831f972d8c5</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXADD</ControlName>
+    <Key>3584efa4-afd0-4d52-92f4-1831f972d8c5</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXADD</ControlName>
+    <Key>3584efa4-afd0-4d52-92f4-1831f972d8c5</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXADD</ControlName>
+    <Key>3584efa4-afd0-4d52-92f4-1831f972d8c5</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXADD</ControlName>
+    <Key>3584efa4-afd0-4d52-92f4-1831f972d8c5</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>504</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXADD</ControlName>
+    <Key>3584efa4-afd0-4d52-92f4-1831f972d8c5</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>592</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXADD</ControlName>
+    <Key>5ead52ab-f0d5-4dfc-bfa8-c964c1435a90</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>+TX</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXADD</ControlName>
+    <Key>e8e09d1d-0b74-4f44-b8d0-cc19f8d6183b</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>+MX</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKADD</ControlName>
+    <Key>5a4d9216-f737-4703-adb6-493b7d743220</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>+UK</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLADD</ControlName>
+    <Key>19050323-3fa2-457b-9866-bf7e3048d8b2</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>+PL</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXADD</ControlName>
+    <Key>3584efa4-afd0-4d52-92f4-1831f972d8c5</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>+Other</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTDEL</ControlName>
+    <Key>51b5fd5c-a0d8-44d7-928f-817bb3d54d6a</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTDEL</ControlName>
+    <Key>51b5fd5c-a0d8-44d7-928f-817bb3d54d6a</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTDEL</ControlName>
+    <Key>51b5fd5c-a0d8-44d7-928f-817bb3d54d6a</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTDEL</ControlName>
+    <Key>51b5fd5c-a0d8-44d7-928f-817bb3d54d6a</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTDEL</ControlName>
+    <Key>51b5fd5c-a0d8-44d7-928f-817bb3d54d6a</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>266</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTDEL</ControlName>
+    <Key>51b5fd5c-a0d8-44d7-928f-817bb3d54d6a</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>288</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnCTDEL</ControlName>
+    <Key>51b5fd5c-a0d8-44d7-928f-817bb3d54d6a</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>-CT</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXDEL</ControlName>
+    <Key>2f3e611e-9349-47ea-b314-5e480240bf26</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXDEL</ControlName>
+    <Key>2f3e611e-9349-47ea-b314-5e480240bf26</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXDEL</ControlName>
+    <Key>2f3e611e-9349-47ea-b314-5e480240bf26</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXDEL</ControlName>
+    <Key>2f3e611e-9349-47ea-b314-5e480240bf26</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXDEL</ControlName>
+    <Key>2f3e611e-9349-47ea-b314-5e480240bf26</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>418</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXDEL</ControlName>
+    <Key>2f3e611e-9349-47ea-b314-5e480240bf26</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>288</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnTXDEL</ControlName>
+    <Key>2f3e611e-9349-47ea-b314-5e480240bf26</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>-TX</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXDEL</ControlName>
+    <Key>ea2b6cf6-583e-4112-981d-1a4d541c7323</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXDEL</ControlName>
+    <Key>ea2b6cf6-583e-4112-981d-1a4d541c7323</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXDEL</ControlName>
+    <Key>ea2b6cf6-583e-4112-981d-1a4d541c7323</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXDEL</ControlName>
+    <Key>ea2b6cf6-583e-4112-981d-1a4d541c7323</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXDEL</ControlName>
+    <Key>ea2b6cf6-583e-4112-981d-1a4d541c7323</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>570</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXDEL</ControlName>
+    <Key>ea2b6cf6-583e-4112-981d-1a4d541c7323</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>288</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnMXDEL</ControlName>
+    <Key>ea2b6cf6-583e-4112-981d-1a4d541c7323</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>-MX</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKDEL</ControlName>
+    <Key>ca685db0-c136-4e6f-a0bc-cfc382e58f32</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKDEL</ControlName>
+    <Key>ca685db0-c136-4e6f-a0bc-cfc382e58f32</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKDEL</ControlName>
+    <Key>ca685db0-c136-4e6f-a0bc-cfc382e58f32</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKDEL</ControlName>
+    <Key>ca685db0-c136-4e6f-a0bc-cfc382e58f32</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKDEL</ControlName>
+    <Key>ca685db0-c136-4e6f-a0bc-cfc382e58f32</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>264</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKDEL</ControlName>
+    <Key>ca685db0-c136-4e6f-a0bc-cfc382e58f32</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>592</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnUKDEL</ControlName>
+    <Key>ca685db0-c136-4e6f-a0bc-cfc382e58f32</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>-UK</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLDEL</ControlName>
+    <Key>424422fd-0162-408a-8619-9594779f7587</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLDEL</ControlName>
+    <Key>424422fd-0162-408a-8619-9594779f7587</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLDEL</ControlName>
+    <Key>424422fd-0162-408a-8619-9594779f7587</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLDEL</ControlName>
+    <Key>424422fd-0162-408a-8619-9594779f7587</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLDEL</ControlName>
+    <Key>424422fd-0162-408a-8619-9594779f7587</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>416</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLDEL</ControlName>
+    <Key>424422fd-0162-408a-8619-9594779f7587</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>592</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnPLDEL</ControlName>
+    <Key>424422fd-0162-408a-8619-9594779f7587</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>-PL</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXDEL</ControlName>
+    <Key>e7a7d6ee-eb00-47b8-938f-7d83b782bc9a</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXDEL</ControlName>
+    <Key>e7a7d6ee-eb00-47b8-938f-7d83b782bc9a</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>5ba50a47-745d-4c03-867f-83840c7df4cc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXDEL</ControlName>
+    <Key>e7a7d6ee-eb00-47b8-938f-7d83b782bc9a</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXDEL</ControlName>
+    <Key>e7a7d6ee-eb00-47b8-938f-7d83b782bc9a</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>65</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXDEL</ControlName>
+    <Key>e7a7d6ee-eb00-47b8-938f-7d83b782bc9a</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>568</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXDEL</ControlName>
+    <Key>e7a7d6ee-eb00-47b8-938f-7d83b782bc9a</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>592</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>btnXXDEL</ControlName>
+    <Key>e7a7d6ee-eb00-47b8-938f-7d83b782bc9a</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>-Other</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>baseStatusBar</ControlName>
+    <Key>ReasonForm.baseStatusBar</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>23</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>baseStatusBar</ControlName>
+    <Key>ReasonForm.baseStatusBar</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>1098</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>baseStatusBar</ControlName>
+    <Key>ReasonForm.baseStatusBar</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>baseStatusBar</ControlName>
+    <Key>ReasonForm.baseStatusBar</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>774</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiButtonC5</ControlName>
+    <Key>b0103047-813e-4c2c-88b7-a051a6fa48ed</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>671</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>ReasonForm</FormsID>
+    <ControlName>epiButtonC5</ControlName>
+    <Key>b0103047-813e-4c2c-88b7-a051a6fa48ed</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>155</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+</CustomizationDS>
