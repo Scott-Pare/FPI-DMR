@@ -56,6 +56,7 @@ public class Script
 		this.btnADD.Click += new System.EventHandler(this.btnADD_Click);
 		this.epiUltraComboC1_EmailTemplates.ValueChanged += new System.EventHandler(this.epiUltraComboC1_EmailTemplates_ValueChanged);
 		this.epiBTRollUp.Click += new System.EventHandler(this.epiBTRollUp_Click);
+		CreateRowRuleDMRHeadDMRNumEquals_0();;
 		// End Wizard Added Custom Method Calls
 		//AvailUsers, AlertList
 		AvailUsers = new DataTable();
@@ -177,10 +178,21 @@ private void DMRHead_AfterFieldChange(object sender, DataColumnChangeEventArgs a
 			}
 			else
 			{
-				lotnum = string.Empty;
+				ClearDataFields();
 			}
 		}
 	}
+
+	private void ClearDataFields()
+	{
+		lotnum = string.Empty;
+		txtBODY.Text = string.Empty;
+		while(AvailUsers.Rows.Count > 0)AvailUsers.Rows[0].Delete();
+		while(AlertList.Rows.Count > 0)AlertList.Rows[0].Delete();
+		epiUltraComboC1_EmailTemplates.Text = string.Empty;
+		txtTOTALCOST.Text = string.Empty;
+	}
+
 	string lotnum;
 	private bool JobMtlSearch()
 	{
@@ -223,14 +235,15 @@ private void DMRHead_AfterFieldChange(object sender, DataColumnChangeEventArgs a
 		r.BOConnect();
 		r.GetByID(ReasonType, ReasonCode);
 		string EmailList = string.Empty;
-		switch(VendorID){
+		switch (string.Format(VendorID))
+		{
 			case "FPICT":
 					EmailList = (string)r.ReasonData.Tables["Reason"].Rows[0]["Character01"];
 					break;
 			case "FPITX":
 					EmailList = (string)r.ReasonData.Tables["Reason"].Rows[0]["Character02"];
 					break;
-			case "FPIMX":
+			case "FPIMEX":
 					EmailList = (string)r.ReasonData.Tables["Reason"].Rows[0]["Character03"];
 					break;
 			case "FPIUK":
@@ -262,6 +275,14 @@ private void DMRHead_AfterFieldChange(object sender, DataColumnChangeEventArgs a
 			SelectedUsers += s;
 			AlertList.Rows.Add(newuser);
 		}
+		//Trap for over $500, add Dan and Rob
+		decimal cost = ((decimal)edvDMRHead.dataView[edvDMRHead.Row]["AvgMtlUnitCost"] + (decimal)edvDMRHead.dataView[edvDMRHead.Row]["AvgLbrUnitCost"] + (decimal)edvDMRHead.dataView[edvDMRHead.Row]["AvgBurUnitCost"] + (decimal)edvDMRHead.dataView[edvDMRHead.Row]["AvgSubUnitCost"] + (decimal)edvDMRHead.dataView[edvDMRHead.Row]["AvgMtlBurUnitCost"]) * (decimal)edvDMRHead.dataView[edvDMRHead.Row]["DispTotDiscrepantQty"];
+		if (cost > 500)
+			{
+				AlertList.Rows.Add("dhale");
+				AlertList.Rows.Add("robp");
+			} 	
+
 		foreach(string s in SelectedUsers.Split('~'))
 		{
 			if(s == string.Empty)continue;
@@ -273,13 +294,24 @@ private void DMRHead_AfterFieldChange(object sender, DataColumnChangeEventArgs a
 			}
 			if(selectedrow != 0)AvailUsers.Rows[selectedrow-1].Delete();
 		}
+	
+//txtTOTALCOST.Text = string.Format("{0}", cost);
+
 		r.Dispose();
 		r = null;
 	}
 
 	private void btnUpDate_Click(object sender, System.EventArgs args)
 	{
-		// ** Place Event Handling Code Here **
+//CIC68322-DMRUsers
+		while(AvailUsers.Rows.Count > 0) AvailUsers.Rows[0].Delete();
+		DataTable r = CallQuery("CIC68322-DMRUsers");
+		foreach(DataRow user in r.Rows){
+			DataRow newuser = AvailUsers.NewRow();
+			newuser["User"] = (string)user["UserFile.DCDUserID"];
+			AvailUsers.Rows.Add(newuser);
+		}
+
 	}
 
 	private void btnReset_Click(object sender, System.EventArgs args)
@@ -430,6 +462,17 @@ private void DMRHead_AfterFieldChange(object sender, DataColumnChangeEventArgs a
 		return ReturnDataTable;
 	}
 
+	private DataTable CallQuery(string QueryID)
+	{
+		DynamicQueryAdapter d = new DynamicQueryAdapter(this.oTrans);
+		d.BOConnect();
+		d.ExecuteByID(QueryID);
+		DataTable ReturnDataTable = d.QueryResults.Tables["Results"];
+		d.Dispose();
+		d = null;
+		return ReturnDataTable;
+	}
+
 	private void PopulateComboWithUserCodes(EpiUltraCombo c, string TypeCodeID, string ValueMember, string DisplayMember)
 	{
 		UserCodesAdapter x = new UserCodesAdapter(this.oTrans);
@@ -486,6 +529,7 @@ private void DMRHead_AfterFieldChange(object sender, DataColumnChangeEventArgs a
 
 	private void epiUltraComboC1_EmailTemplates_ValueChanged(object sender, System.EventArgs args)
 	{
+		if(edvDMRHead.Row == -1)return;
 		string emailbody = GetUserCodeLongDesc("DMREmail", (string)epiUltraComboC1_EmailTemplates.Value);
 		emailbody = emailbody.Replace("<DMRNum>", ((int)edvDMRHead.dataView[edvDMRHead.Row]["DMRNum"]).ToString());
 		emailbody = emailbody.Replace("<PartNum>", (string)edvDMRHead.dataView[edvDMRHead.Row]["PartNum"]);
@@ -511,6 +555,7 @@ private void DMRHead_AfterFieldChange(object sender, DataColumnChangeEventArgs a
 		DataTable jobList = new DataTable();
 		jobList.Columns.Add("Company", typeof(string));
 		jobList.Columns.Add("JobNum", typeof(string));
+		jobList.Columns.Add("Part", typeof(string));
 
 		DataTable invList = new DataTable();
 		invList.Columns.Add("Company", typeof(string));
@@ -518,29 +563,42 @@ private void DMRHead_AfterFieldChange(object sender, DataColumnChangeEventArgs a
 		invList.Columns.Add("Part", typeof(string));
 		invList.Columns.Add("OnHandQty", typeof(decimal));
 
+		
+		
+		
+		
+		
 		DataTable r = CallDynamicQuery("CIC68322-DMRMtlPartSearch", "MtlPartNum", "String", (string)edvDMRHead.dataView[edvDMRHead.Row]["PartNum"]);
-//		DataTable r = CallDynamicQuery("CIC68322-DMRMtlPartSearch", "MtlPartNum", "String", epiTextBoxC1_TestPartNum.Text);
 		foreach(DataRow row in r.Rows)
 		{//00** FABRIC TEMPLATE
-
 			if(partList.Select(string.Format("Company='{0}' and Part='{1}'", (string)row["Company"], (string)row["PartRev.PartNum"])).Length > 0)continue;
 			DataRow nr = partList.NewRow();
 			nr["Company"] = (string)row["Company"];
 			nr["Part"] = (string)row["PartRev.PartNum"];
 			partList.Rows.Add(nr);
+			
+			DataRow nrmtl = partList.NewRow();
+			nrmtl["Company"] = (string)row["Company"];
+			nrmtl["Part"] = (string)row["PartMtl.MtlPartNum"];
+			partList.Rows.Add(nrmtl);
 
-			DataTable r1 = CallDynamicQuery("CIC68322-DMRJobSearchByPart", "PartNum", "String", (string)nr["Part"]);
+
+		}
+		foreach(DataRow row in partList.Rows)
+		{
+			DataTable r1 = CallDynamicQuery("CIC68322-DMRJobSearchByPart", "PartNum", "String", (string)row["Part"]);
 			oTrans.PushStatusText("0.", true);
 			foreach(DataRow row1 in r1.Rows)
 			{
-				if(jobList.Select(string.Format("Company='{0}' and JobNum='{1}'", (string)row1["Company"], (string)row1["JobHead.JobNum"])).Length > 0)continue;
+				if(jobList.Select(string.Format("Company='{0}' and JobNum='{1}' and Part='{2}'", (string)row1["Company"], (string)row1["JobHead.JobNum"], (string)row1["JobHead.PartNum"])).Length > 0)continue;
 				DataRow nr1 = jobList.NewRow();
 				nr1["Company"] = (string)row1["Company"];
 				nr1["JobNum"] = (string)row1["JobHead.JobNum"];
+				nr1["Part"] = (string)row1["JobHead.PartNum"];
 				jobList.Rows.Add(nr1);
 			}
 
-			DataTable r2 = CallDynamicQuery("CIC68322-DMRPartInventory", "PartNum", "String", (string)nr["Part"]);
+			DataTable r2 = CallDynamicQuery("CIC68322-DMRPartInventory", "PartNum", "String", (string)row["Part"]);
 			foreach(DataRow row1 in r2.Rows)
 			{
 				if(invList.Select(string.Format("Company='{0}' and Part='{1}' and Whse='{2}'", (string)row1["Company"], (string)row1["PartWhse.PartNum"], (string)row1["PartWhse.WarehouseCode"])).Length > 0)continue;
@@ -550,10 +608,24 @@ private void DMRHead_AfterFieldChange(object sender, DataColumnChangeEventArgs a
 				nr2["Part"] = (string)row1["PartWhse.PartNum"];
 				nr2["OnHandQty"] = (decimal)row1["PartWhse.OnHandQty"];
 				invList.Rows.Add(nr2);
-			}
-		}
+			}		}
+		
 		epiPartList.DataSource = partList;
 		epiJobList.DataSource = jobList;
 		epiInventory.DataSource = invList;
 	}
+
+	private void CreateRowRuleDMRHeadDMRNumEquals_0()
+	{
+		// Description: DisableNewButtons
+		// **** begin autogenerated code ****
+		RuleAction disabledDMRHead_DMRNum = RuleAction.AddControlSettings(this.oTrans, "DMRHead.OurButtons", SettingStyle.Disabled);
+		RuleAction[] ruleActions = new RuleAction[] {
+				disabledDMRHead_DMRNum};
+		// Create RowRule and add to the EpiDataView.
+		RowRule rrCreateRowRuleDMRHeadDMRNumEquals_0 = new RowRule("DMRHead.DMRNum", RuleCondition.Equals, 0, ruleActions);
+		((EpiDataView)(this.oTrans.EpiDataViews["DMRHead"])).AddRowRule(rrCreateRowRuleDMRHeadDMRNumEquals_0);
+		// **** end autogenerated code ****
+	}
+
 }
